@@ -17,8 +17,6 @@ const IdciHead = () => {
       {/* Favicon Icon */}
       <link
         rel="shortcut icon"
-        href="assets/images/favicon.png"
-        type="image/x-icon"
       />
       {/* Google Fonts */}
       <link
