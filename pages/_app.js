@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
   return (
     <Fragment>
       <IdciHead />
-      {loading && <Preloader />}
+      {/* {loading && <Preloader />} */}
       <Component {...pageProps} />
     </Fragment>
   );
