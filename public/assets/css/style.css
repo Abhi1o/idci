@@ -1,10 +1,6 @@
 @charset "UTF-8";
 /*----------------------------------------------------------------------
-    Template Name: Jeena - IT solutions & Services HTML Template
-    Template URI: https://webtend.net/demo/html/jeena/
-    Author: WebTend
-    Author URI:  https://webtend.net/
-    Version: 1.0
+   
 
     Note: This is Main Style CSS File. */
 /*----------------------------------------------------------------------
@@ -8648,9 +8644,17 @@ blockquote {
 .footer-logo {
   padding: 25px 30px;
   display: inline-block;
-  background: var(--secondary-color);
+  background: #000;
   -webkit-clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
-  clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%); }
+  clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
+}
+.footer-logo h3{
+  font-size:45px;
+  font-width:700;
+  color:rgb(255, 89, 89);
+
+
+}
 
 .footer-white {
   color: #b6bace; }

@@ -1,5 +1,5 @@
 import Head from "next/head";
-const JeenaHead = () => {
+const IdciHead = () => {
   return (
     <Head>
       {/* Required meta tags */}
@@ -44,4 +44,4 @@ const JeenaHead = () => {
     </Head>
   );
 };
-export default JeenaHead;
+export default IdciHead;

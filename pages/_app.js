@@ -1,4 +1,4 @@
-import JeenaHead from "@/src/layout/JeenaHead";
+import IdciHead from "@/src/layout/IdciHead";
 import Preloader from "@/src/layout/Preloader";
 import "@/styles/globals.css";
 import { Fragment, useEffect, useState } from "react";
@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <Fragment>
-      <JeenaHead />
+      <IdciHead />
       {loading && <Preloader />}
       <Component {...pageProps} />
     </Fragment>

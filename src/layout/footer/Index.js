@@ -38,7 +38,7 @@ const Footer = () => {
               <div className="footer-logo mb-30">
                 <Link legacyBehavior href="/index">
                   <a>
-                    <img src="assets/images/logos/logo-one.png" alt="Logo" />
+                    <h3>idci</h3>
                   </a>
                 </Link>
               </div>
@@ -242,7 +242,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-4">
               <div className="copyright-text text-lg-end wow fadeInLeft delay-0-2s">
-                <p>© 2023 Jeena. All rights reserved.</p>
+                <p>© 2024 idci. All rights reserved.</p>
               </div>
             </div>
           </div>

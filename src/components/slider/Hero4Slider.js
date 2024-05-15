@@ -26,7 +26,7 @@ export default class Hero4Slider extends Component {
           <div className="slider-item-two">
             <div className="container">
               <div className="slide-content">
-                <span className="sub-title">Welcome to Jeena</span>
+                <span className="sub-title">Welcome to idci</span>
                 <h1>IT Services Agency</h1>
                 <Link legacyBehavior href="/about">
                   <a className="theme-btn mt-15">
@@ -75,7 +75,7 @@ export default class Hero4Slider extends Component {
           <div className="slider-item-two">
             <div className="container">
               <div className="slide-content">
-                <span className="sub-title">Welcome to Jeena</span>
+                <span className="sub-title">Welcome to idci</span>
                 <h1>IT Services Agency</h1>
                 <Link legacyBehavior href="/about">
                   <a className="theme-btn mt-15">
@@ -124,7 +124,7 @@ export default class Hero4Slider extends Component {
           <div className="slider-item-two">
             <div className="container">
               <div className="slide-content">
-                <span className="sub-title">Welcome to Jeena</span>
+                <span className="sub-title">Welcome to idci</span>
                 <h1>IT Services Agency</h1>
                 <Link legacyBehavior href="/about">
                   <a className="theme-btn mt-15">
