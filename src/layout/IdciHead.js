@@ -39,6 +39,13 @@ const IdciHead = () => {
       <link rel="stylesheet" href="assets/css/slick.min.css" />
       {/* Main Style */}
       <link rel="stylesheet" href="assets/css/style.css" />
+
+      <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="lxH_5Q3FKaq8SyTlaq2eG"
+        domain="www.chatbase.co"
+        defer>
+      </script>
     </Head>
   );
 };

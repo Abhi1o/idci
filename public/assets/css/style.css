@@ -110,7 +110,38 @@ header:after, section:after, footer:after {
   clear: both;
   content: ""; }
 
-/*======= Input Styles =======*/
+  
+  /*======= card Styles =======*/
+  .card-img-top {
+    /* height: 0px; Set a fixed height for the images */
+    height: 150px;
+    width:200px;
+    object-fit: cover; /* Ensure the image covers the entire area without distorting */
+  }
+  
+  .card {
+    height: 100%; /* Make sure the card takes the full height */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-text {
+    flex-grow: 1;
+  }
+  
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-subtitle {
+    margin-bottom: 1rem;
+  }
+  /*======= Input Styles =======*/
+
 input,
 select,
 textarea,

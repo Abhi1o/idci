@@ -1,16 +1,58 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
+import ReviewsCards from "@/src/components/slider/ReviewCards";
 
 const BlogDetails = () => {
+  const reviews = [
+    {
+      image: 'https://idci.in/Clients%20Logo/Mammen.png', // replace with actual image URLs
+      name: 'Mammen Exports',
+      title: 'Varghese P. Mammen',
+      review: ' Dear Mr. Paras Kumar, On behalf of our company, I would like to extend a word thanks to Mr. Paras Kumar, Clo. Corporate Law Firm & Consultant for his services rendered to us pertaining to export outstanding dues of our buyer. Through his expertise in this field, he was able to successfully collect the outstanding amount from the buyer in Taiwan. The time taken for the whole process is also commendable. We wish him great success and may give more opportunities to recover bad debts of other companies from their customers.',
+      position: 'President',
+      rating: 5
+    },
+    {
+      image: 'https://idci.in/Clients%20Logo/sai_international.jpeg', // replace with actual image URLs
+      name: 'Sai International',
+      title: 'Ajay Khaspuriya',
+      review: 'We highly appreciate for the Recovery and Collection services of your company. Our payment Rs 16,00,000/- was on hold for last 1 and half years with Teno n Facility Management India Pvt Ltd. 458, UdyogVihar, Phase – V, Sector – 19, Gurgaon, Haryana, for thecourier & logistic services provided at pan India to this company Without any legal action and court case, you recovered our Bad Debt. You saved our time and money both. We appreciate your work process. You involved all the senior management in our payment recovery. The Biggest thing is that those who were not attending us, were ready to meet us face to face. Thank you very much for recovery of our Bad Debt',
+      position: 'Director',
+      rating: 4
+    },
+    {
+      image: 'https://idci.in/Clients%20Logo/egis.png', // replace with actual image URLs
+      name: 'Jason Chedd',
+      title: 'Sumit Kumar',
+      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor eveniet deleniti repellendus? Minima, dolorem.',
+      position: 'Director',
+      rating: 5
+    }
+  ];
   return (
     <Layout>
       <PageBanner pageName={"Client Review"} />
       <section className="blog-details-area py-130 rpy-100">
         <div className="container">
-          <div className="row gap-60">
-            <div className="col-lg-8">
-              <div className="blog-details-content wow fadeInUp delay-0-2s">
+        <div className="container wow fadeInUp delay-0-2s">
+      <div className="row">
+        {reviews.map((review, index) => (
+          <ReviewsCards
+            key={index}
+            image={review.image}
+            name={review.name}
+            title={review.title}
+            review={review.review}
+            position={review.position}
+            rating={review.rating}
+          />
+        ))}
+      </div>
+    </div>
+          <div className="row ">
+            <div className="col-lg-12">
+              {/* <div className="blog-details-content wow fadeInUp delay-0-2s">
                 <div className="image mb-40">
                   <img
                     src="assets/images/blog/blog-details.jpg"
@@ -250,7 +292,10 @@ const BlogDetails = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
+
+
+
               <form
                 onSubmit={(e) => e.preventDefault()}
                 id="comment-form"
@@ -322,7 +367,7 @@ const BlogDetails = () => {
                 </div>
               </form>
             </div>
-            <div className="col-lg-4 col-md-7 col-sm-9">
+            {/* <div className="col-lg-4 col-md-7 col-sm-9">
               <div className="main-sidebar rmt-75">
                 <div className="widget widget-search wow fadeInUp delay-0-2s">
                   <h4 className="widget-title">Search</h4>
@@ -490,8 +535,9 @@ const BlogDetails = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
+          
         </div>
       </section>
     </Layout>
