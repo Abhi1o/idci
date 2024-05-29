@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Search from "../Search";
 import Menu from "./Menu";
+import Image from "next/image";
+import logo from "../../../public/assets/CompanyLogo/COMAsset1.png";
 
 const Header1 = () => {
   return (
@@ -48,9 +50,9 @@ const Header1 = () => {
             <div className="logo-outer">
               <div className="logo">
                 <Link legacyBehavior href="/">
-                  <h3>
-                    idci
-                  </h3>
+                
+                  <Image src={logo} alt="Logo" width={90}/>
+                
                 </Link>
               </div>
             </div>

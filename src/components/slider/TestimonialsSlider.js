@@ -181,11 +181,11 @@ const TestimonialsSlider2 = () => {
   const slider = {
     slidesToShow: 1,
     slidesToScroll: 1,
-    infinite: false,
-    speed: 400,
+    infinite: true,
+    speed: 1900,
     arrows: false,
-    autoplay: false,
-    autoplaySpeed: 5000,
+    autoplay: true,
+    autoplaySpeed: 1900,
   };
   return (
     <Fragment>

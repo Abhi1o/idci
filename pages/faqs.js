@@ -13,7 +13,7 @@ const Faq = () => {
             <h2>Frequently Asked Questions</h2>
           </div>
           <Tab.Container defaultActiveKey={"faq-tab1"}>
-            <Nav as="ul" className="nav tab-style-one mb-35">
+            {/* <Nav as="ul" className="nav tab-style-one mb-35">
               <li className="nav-item">
                 <Nav.Link
                   as="a"
@@ -102,38 +102,18 @@ const Faq = () => {
                   Payments
                 </Nav.Link>
               </li>
-            </Nav>
+            </Nav> */}
             <Tab.Content
               className="tab-content faq-accordion style-three"
               id="faq-accordion"
             >
               <Tab.Pane className="tab-pane fade" eventKey="faq-tab1">
                 <JeenaAccordion
-                  accordions={[1, 2, 3, 4, 5, 6, 7, 8]}
-                  defaultActive={2}
+                  accordions={[1, 11, 3, 4, 5, 6, 7, 8,9,10,2,12,13,14,15,16,17,18]}
+                  defaultActive={11}
                 />
               </Tab.Pane>
-              <Tab.Pane className="tab-pane fade" eventKey="faq-tab2">
-                <JeenaAccordion accordions={[1, 7, 8]} defaultActive={2} />
-              </Tab.Pane>
-              <Tab.Pane className="tab-pane fade" eventKey="faq-tab3">
-                <JeenaAccordion accordions={[1, 2, 3]} defaultActive={2} />
-              </Tab.Pane>
-              <Tab.Pane className="tab-pane fade" eventKey="faq-tab4">
-                <JeenaAccordion accordions={[6, 7, 8]} defaultActive={6} />
-              </Tab.Pane>
-              <Tab.Pane className="tab-pane fade" eventKey="faq-tab5">
-                <JeenaAccordion accordions={[1, 2, 8]} defaultActive={8} />
-              </Tab.Pane>
-              <Tab.Pane className="tab-pane fade" eventKey="faq-tab6">
-                <JeenaAccordion accordions={[1, 2, 3]} defaultActive={3} />
-              </Tab.Pane>
-              <Tab.Pane className="tab-pane fade" eventKey="faq-tab7">
-                <JeenaAccordion accordions={[1, 7, 8]} defaultActive={1} />
-              </Tab.Pane>
-              <Tab.Pane className="tab-pane fade" eventKey="faq-tab8">
-                <JeenaAccordion accordions={[6, 7, 8]} defaultActive={6} />
-              </Tab.Pane>
+              
             </Tab.Content>
           </Tab.Container>
         </div>
@@ -149,10 +129,11 @@ const Faq = () => {
                   <h3>Get In Touch With Us</h3>
                 </div>
                 <form
-                  onSubmit={(e) => e.preventDefault()}
+                  // onSubmit={(e) => e.preventDefault()}
                   className="form-style-one"
-                  action="#"
+                  action="https://formspree.io/f/xnqeykwz"
                   name="contact-form"
+                  method="POST"
                 >
                   <div className="row">
                     <div className="col-md-6">

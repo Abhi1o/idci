@@ -2,6 +2,8 @@ import Link from "next/link";
 import Search from "../Search";
 import HeaderTop from "./HeaderTop";
 import Menu from "./Menu";
+import logo from "../../../public/assets/CompanyLogo/COMAsset1.png";
+import Image from "next/image"
 
 const DefaultHeader = () => {
   return (
@@ -14,7 +16,7 @@ const DefaultHeader = () => {
             <div className="logo-outer">
               <div className="logo">
                 <Link legacyBehavior href="/index">
-                  <h3>idci</h3>
+                  <Image src={logo} alt="Logo" />
                 </Link>
               </div>
             </div>

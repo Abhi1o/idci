@@ -335,43 +335,43 @@ const Blog = () => {
                   <ul>
                     <li>
                       <Link legacyBehavior href="blog">
-                        Digital Solutions
+                      Debt Recovery Strategies
                       </Link>{" "}
                       <span>(25)</span>
                     </li>
                     <li>
                       <Link legacyBehavior href="blog">
-                        Saas Landing
+                      Legal Insights
                       </Link>{" "}
                       <span>(09)</span>
                     </li>
                     <li>
                       <Link legacyBehavior href="blog">
-                        WordPress
+                      Case Studies
                       </Link>{" "}
                       <span>(18)</span>
                     </li>
                     <li>
                       <Link legacyBehavior href="blog">
-                        Graphics Design
+                      Industry News
                       </Link>{" "}
                       <span>(05)</span>
                     </li>
                     <li>
                       <Link legacyBehavior href="blog">
-                        Business Consulting
+                      Financial Management Tips
                       </Link>{" "}
                       <span>(03)</span>
                     </li>
                     <li>
                       <Link legacyBehavior href="blog">
-                        SEO Optimization
+                      Client Stories
                       </Link>{" "}
                       <span>(04)</span>
                     </li>
                     <li>
                       <Link legacyBehavior href="blog">
-                        Marketing
+                      Financial Education
                       </Link>{" "}
                       <span>(05)</span>
                     </li>

@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
-
+import Image from "next/image";
+import logo from "../../../public/assets/CompanyLogo/COMAsset1.png";
 import { Fragment } from "react";
 const Menu = () => {
   return (
@@ -23,7 +24,7 @@ const MobileMenu = () => {
         <div className="navbar-header">
           <div className="mobile-logo">
             <Link href="/">
-              <h4>idci</h4>
+              <Image src={logo} alt="logo" width={100}/>
             </Link>
           </div>
           {/* Toggle Button */}
@@ -81,9 +82,9 @@ const DeskTopMenu = () => {
     <nav className="main-menu navbar-expand-lg desktop-menu">
       <div className="navbar-header">
         <div className="mobile-logo">
-          <Link href="/">
-            <h5>idci</h5>
-          </Link>
+        <Link href="/">
+              <Image src={logo} alt="logo" width={0}/>
+            </Link>
         </div>
         {/* Toggle Button */}
         <button

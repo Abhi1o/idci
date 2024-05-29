@@ -101,11 +101,12 @@ const Contact = () => {
               </div>
             </div>
             <form
-              onSubmit={(e) => e.preventDefault()}
+              // onSubmit={(e) => e.preventDefault()}
               id="contactForm"
               className="contactForm"
-              action="assets/php/form-process.php"
+              action="https://formspree.io/f/xnqeykwz"
               name="contactForm"
+              method="POST"
             >
               <div className="row">
                 <div className="col-md-6">

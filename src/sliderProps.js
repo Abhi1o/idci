@@ -23,14 +23,14 @@ export const projectSliderActive = {
 export const testimonialSlider = {
   slidesToShow: 2,
   slidesToScroll: 1,
-  infinite: false,
-  speed: 400,
+  infinite: true,
+  speed:200,
   arrows: false,
   dots: true,
   loop: true,
   focusOnSelect: true,
-  autoplay: false,
-  autoplaySpeed: 5000,
+  autoplay: true,
+  autoplaySpeed: 200,
   responsive: [
     {
       breakpoint: 1200,

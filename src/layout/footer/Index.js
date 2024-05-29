@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../../../public/assets/CompanyLogo/COMAsset1.png";
+
 
 const Footer = () => {
   return (
@@ -36,10 +39,8 @@ const Footer = () => {
           <div className="col-xl-3 col-sm-6">
             <div className="footer-widget widget_about wow fadeInUp delay-0-2s">
               <div className="footer-logo mb-30">
-                <Link legacyBehavior href="/index">
-                  <a>
-                    <h3>idci</h3>
-                  </a>
+                <Link legacyBehavior href="/">
+                 <Image src={logo} alt="Logo" width={90}/>
                 </Link>
               </div>
               <p>
@@ -94,12 +95,12 @@ const Footer = () => {
                 <div className="footer-widget widget_nav_menu wow fadeInUp delay-0-3s">
                   <h4 className="footer-title">Quick Links</h4>
                   <ul className="list-style-two">
-                    <li>
+                    {/* <li>
                       <Link
                         legacyBehavior
                         href="about"
                       >{`Company History`}</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link legacyBehavior href="about">{`About Company`}</Link>
                     </li>
@@ -109,12 +110,12 @@ const Footer = () => {
                         href="services"
                       >{`Latest Services`}</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link
                         legacyBehavior
                         href="project-grid"
                       >{`Popular Works`}</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link
                         legacyBehavior
@@ -137,22 +138,22 @@ const Footer = () => {
                 <div className="footer-widget widget_nav_menu wow fadeInUp delay-0-4s">
                   <h4 className="footer-title">Services</h4>
                   <ul className="list-style-two">
-                    <li>
+                    {/* <li>
                       <Link legacyBehavior href="service-details">
                         <a>Product Design</a>
                       </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link legacyBehavior href="service-details">
                         <a>Design &amp; Development</a>
                       </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link legacyBehavior href="service-details">
                         <a>UX/UI Strategy</a>
                       </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link legacyBehavior href="service-details">
                         <a>Search Engine</a>
                       </Link>
@@ -171,7 +172,7 @@ const Footer = () => {
                       <Link legacyBehavior href="service-details">
                         <a>Business Analysis</a>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -194,7 +195,7 @@ const Footer = () => {
                         <a>404 Not Found</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link legacyBehavior href="contact">
                         <a>Password Protected</a>
                       </Link>
@@ -208,7 +209,7 @@ const Footer = () => {
                       <Link legacyBehavior href="contact">
                         Changelog
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

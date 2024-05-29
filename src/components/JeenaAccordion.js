@@ -4,42 +4,79 @@ import { Accordion } from "react-bootstrap";
 const defaultAccordionData = [
   {
     id: 1,
-    title: "Build A Group Chat App With Vanilla JS, Twilio And Node.js",
+    title: "What is bad debt recovery?",
+    description: "Bad debt recovery refers to the process of recovering unpaid debts from individuals or businesses that have defaulted on their financial obligations."
   },
   {
     id: 2,
-    title:
-      "Measuring The Performance Of Typefaces For Users Part Ukraine, A Charity Conference On The Future Of Tech ?",
-    largeDescription: true,
+    title: "Why should I use a bad debt recovery service?",
+    description: "A professional bad debt recovery service has the expertise, resources, and legal knowledge to effectively pursue and recover unpaid debts, which can save you time, reduce stress, and increase the likelihood of successful recovery.",
+    largeDescription: true
   },
   {
     id: 3,
-    title:
-      "How To Apply UX Principles To Embedded Systems: Learnings From The Field ?",
+    title: "What types of debts can you help recover?",
+    description: "We assist in recovering various types of debts including personal loans, commercial loans, credit card debts, medical bills, utility bills, and any other form of unpaid receivables."
   },
   {
     id: 4,
-    title:
-      "Smashing Podcast Episode 47 With Sara Soueidan: Why Does Accessibility Matter?",
+    title: "How do you approach debt recovery?",
+    description: "Our approach includes: Initial assessment and documentation review, contacting the debtor through phone calls, letters, and emails, negotiating repayment plans if possible, and legal action as a last resort."
   },
   {
     id: 5,
-    title:
-      "How To Apply UX Principles To Embedded Systems: Learnings From The Field ?",
+    title: "What are the costs associated with your services?",
+    description: "Our fees are usually a percentage of the recovered amount, ensuring that we are motivated to achieve the best results for you. Specific rates can be discussed during a consultation."
   },
   {
     id: 6,
-    title: "Rethinking Server-Timing As A Critical Monitoring Tool ?",
+    title: "How long does the debt recovery process take?",
+    description: "The duration of the recovery process can vary depending on the complexity of the case and the debtor’s willingness to cooperate. It can range from a few weeks to several months."
   },
   {
     id: 7,
-    title:
-      "How To Use Google CrUX To Analyze And Compare The Performance Of JS Frameworks ?",
+    title: "Is my information kept confidential?",
+    description: "Absolutely. We adhere to strict confidentiality policies to ensure that all client and debtor information is securely handled."
   },
   {
     id: 8,
-    title:
-      "Smashing Podcast Episode 47 With Sara Soueidan: Why Does Accessibility Matter?",
+    title: "What happens if the debt cannot be recovered?",
+    description: "While we employ all possible methods to recover debts, there are cases where recovery is not possible. In such instances, we provide a detailed report of our efforts and reasons for non-recovery."
+  },
+  {
+    id: 9,
+    title: "Can you handle international debt recovery?",
+    description: "Yes, we have a network of international partners and legal experts to assist in recovering debts from debtors located outside India."
+  },
+  {
+    id: 10,
+    title: "What legal actions can you take to recover debts?",
+    description: "Legal actions may include filing a lawsuit, obtaining a court judgment, and executing the judgment through various means such as garnishing wages or seizing assets."
+  },
+  {
+    id: 11,
+    title: "What documents do I need to provide for debt recovery?",
+    description: "Typically, you will need to provide: Original contract or agreement, proof of the debt (invoices, receipts, etc.), any correspondence with the debtor, personal identification and debtor’s information."
+  },
+  {
+    id: 12,
+    title: "How do I get started with your services?",
+    description: "You can get started by contacting us through our website or calling our customer service number. We will schedule a consultation to discuss your case in detail and outline the next steps."
+  },
+  {
+    id: 13,
+    title: "Are there any upfront costs involved?",
+    description: "In most cases, there are no upfront costs. Our service charges are contingent upon successful recovery, meaning we only get paid when you do."
+  },
+  {
+    id: 14,
+    title: "How do you ensure compliance with legal and ethical standards?",
+    description: "We strictly adhere to all applicable laws and regulations governing debt collection in India. Our team is trained to conduct recovery efforts professionally and ethically."
+  },
+  {
+    id: 15,
+    title: "Can you recover debts from insolvent or bankrupt individuals?",
+    description: "Recovering debts from insolvent or bankrupt individuals is challenging but not impossible. We evaluate such cases individually to determine the best course of action."
   },
 ];
 
@@ -60,7 +97,7 @@ const JeenaAccordion = ({ defaultActive, accordions, accordionsData }) => {
       {data.map(
         (accordion) =>
           accordions.includes(accordion.id) && (
-            <div className="accordion-item">
+            <div className="accordion-item" key={accordion.id}>
               <h5 className="accordion-header">
                 <Accordion.Toggle
                   as="button"
@@ -80,22 +117,30 @@ const JeenaAccordion = ({ defaultActive, accordions, accordionsData }) => {
                 <div className="accordion-body">
                   {accordion.largeDescription ? (
                     <Fragment>
+                      <p>{accordion.description}</p>
                       <hr />
                       <div className="row">
                         <div className="col-lg-6">
-                          <p>
+                          {/* <p>
                             On the other hand, we denounce with righteous
                             indignation and dislike men who are so beguiled and
                             demoralized by the charms of pleasure of the moment
                             blinded by desire, that they cannot foresee the pain
                             and trouble bound
                           </p>
+                          
                           <ul className="list-style-one my-15">
                             <li>Comprehensive UI/UX Assessment</li>
                             <li>Deep Contextual Research and 360° Planning</li>
                             <li>Wireframing &amp; Prototyping</li>
+                          </ul> */}
+                          <ul>
+                            <li>Original contract or agreement</li>
+                            <li>proof of the debt (invoices, receipts, etc.)</li>
+                            <li>Any correspondence with the debtor</li>
+                            <li>Personal identification and debtor’s information</li>
                           </ul>
-                        </div>
+                                                  </div>
                         <div className="col-lg-6 my-15 text-lg-end">
                           <img
                             src="assets/images/about/inner-faq.jpg"
@@ -105,15 +150,7 @@ const JeenaAccordion = ({ defaultActive, accordions, accordionsData }) => {
                       </div>
                     </Fragment>
                   ) : (
-                    <p>
-                      Sorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Numquam incidunt debitis magnam sit dicta asperiores
-                      quidem cum, blanditiis harum non nulla, esse sapiente
-                      doloremque, dolores natus! Harum consectetur saepe iure
-                      obcaecati illo, maiores minima in dolorem, deleniti unde
-                      aut similique fugit earum. Numquam ut ex ipsum molestiae,
-                      consequatur obcaecati? Velit.
-                    </p>
+                    <p>{accordion.description}</p>
                   )}
                 </div>
               </Accordion.Collapse>
@@ -123,6 +160,7 @@ const JeenaAccordion = ({ defaultActive, accordions, accordionsData }) => {
     </Accordion>
   );
 };
+
 export default JeenaAccordion;
 
 const JeenaAccordion2 = ({ accordionsData }) => {
@@ -137,7 +175,7 @@ const JeenaAccordion2 = ({ accordionsData }) => {
   return (
     <Accordion defaultActiveKey={active}>
       {accordionsData.map((accordion) => (
-        <div className="accordion-item">
+        <div className="accordion-item" key={accordion.id}>
           <h5 className="accordion-header">
             <Accordion.Toggle
               as="button"
@@ -155,11 +193,7 @@ const JeenaAccordion2 = ({ accordionsData }) => {
             data-bs-parent="#faq-accordion"
           >
             <div className="accordion-body">
-              <p>
-                Sed ut perspiciatis unde omniste natus voluptatem accusantium
-                doloremque laudantium totam rem aperiam quae abillo inventore
-                veritatis quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
+              <p>{accordion.description}</p>
             </div>
           </Accordion.Collapse>
         </div>
@@ -167,4 +201,5 @@ const JeenaAccordion2 = ({ accordionsData }) => {
     </Accordion>
   );
 };
+
 export { JeenaAccordion2 };

@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import Slider from "react-slick";
 
+
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
@@ -16,9 +17,9 @@ const Index = () => {
       <section className="hero-area bgc-gray rel z-1">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-8 align-self-center">
               <div className="hero-content pt-115 pb-125 rpb-0 wow fadeInUp delay-0-4s">
-                <h2>National & Overseas Bad Debt Management Corporate Consultant &amp; Technology Solutions</h2>
+                <h3>National & Overseas Bad Debt Management Corporate Consultant &amp; Technology Solutions</h3>
                 <p>
                 We aim to provide the best of our collection and recovery services to those clients who are skilled
                 </p>
@@ -46,7 +47,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-end">
+            <div className="col-lg-4 align-self-center">
               <div className="hero-images mt-80 wow fadeInLeft">
                 <img src="assets/images/hero/hero-one.jpg" alt="Hero" />
               </div>
@@ -68,7 +69,7 @@ const Index = () => {
       </section>
       {/* Hero Section End */}
       {/* Partners Area start */}
-      <section className="partners-area mt-60 pt-150 pb-100 rmt-30 rpb-70 rel z-1">
+      <section className="partners-area mt-0 pt-80 pb-100 rmt-30 rpb-70 rel z-1">
         <div className="container">
           <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-15">Global Partners</span>
@@ -515,7 +516,7 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                 <div className="content">
                   <h4>Discover</h4>
                   <p>
-                    We emphasize planning get everythin documente nothing
+                    We emphasize planning get everything document nothing
                     assumption
                   </p>
                 </div>
@@ -540,7 +541,7 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                   <h4>Design &amp; Dev</h4>
                   <p>
                     At this step, we cater to requirement backed web services
-                    developmenc
+                    development
                   </p>
                 </div>
               </div>
@@ -551,8 +552,8 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                 <div className="content">
                   <h4>Testing</h4>
                   <p>
-                    On the other denounce with righteou indignation dislike
-                    beguile demore
+                    On the other denounce with righteous indignation dislike
+                    beguile demode
                   </p>
                 </div>
               </div>
@@ -574,7 +575,7 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
       </section>
       {/* Work Process Area end */}
       {/* Team Area start */}
-      <section className="team-area pb-100 rpb-70 rel z-1">
+      {/* <section className="team-area pb-100 rpb-70 rel z-1">
         <div className="container">
           <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-15">Team Member</span>
@@ -667,7 +668,7 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Team Area end */}
       {/* Statistics Area start */}
       <section className="statistics-area rel z-2">
@@ -683,7 +684,7 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
                   <div className="section-title mb-30">
                     <span className="sub-title mb-15">Company Statistics</span>
-                    <h2>Learn About Our Comapny Statistics</h2>
+                    <h2>Learn About Our Company Statistics</h2>
                   </div>
                   <Link legacyBehavior href="/about">
                     <a className="read-more">
@@ -700,11 +701,11 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={2563}
+                        data-stop={256}
                       >
-                        <Counter end={2563} />
+                        <Counter end={256} />
                       </span>
-                      <span className="counter-title">Project Complate</span>
+                      <span className="counter-title">Project Completed</span>
                     </div>
                   </div>
                   <div className="col-xl-3 col-small col-6">
@@ -713,11 +714,11 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9"
+                        data-stop="95"
                       >
-                        <Counter end={98.9} decimals={1} />
+                        <Counter end={95} decimals={1} />
                       </span>
-                      <span className="counter-title">Clinets Happy</span>
+                      <span className="counter-title">Clients Happy</span>
                     </div>
                   </div>
                   <div className="col-xl-3 col-small col-6">
@@ -726,9 +727,9 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6"
+                        data-stop="10"
                       >
-                        <Counter end={35.6} decimals={1} />
+                        <Counter end={10} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
                     </div>
@@ -737,11 +738,11 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                     <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
                       <i className="flaticon-medal" />
                       <span
-                        className="count-text k-plus"
+                        className="count-text plus"
                         data-speed={3000}
-                        data-stop={63}
+                        data-stop={15}
                       >
-                        <Counter end={63} />
+                        <Counter end={15} />
                       </span>
                       <span className="counter-title">Award Winning</span>
                     </div>
@@ -902,11 +903,11 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                   alt="Testimonial"
                 />
                 <div className="testi-image-over">
-                  <h3>We Have More 3248+ Reviews From Global Clients</h3>
-                  <img
+                  <h3>We Have More 248+ Reviews From Global Clients</h3>
+                  {/* <img
                     src="assets/images/testimonials/signature.png"
                     alt="Signature"
-                  />
+                  /> */}
                 </div>
                 <div className="dot-shapes">
                   <img

@@ -3720,11 +3720,11 @@ h6, .h6 {
 /*******************************************************/
 .hero-content {
   z-index: 2;
-  max-width: 530px;
+  max-width: 800px;
   position: relative; }
   .hero-content .sub-title {
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.6;
     padding: 8px 20px;
     display: inline-block;
     border-radius: 0 5px 5px 0;
@@ -3740,21 +3740,21 @@ h6, .h6 {
       color: rgb(255, 74, 74);
       font-size: 35px;
     }
-    .hero-content h2 {
+    .hero-content h3 {
       color: white;
       font-size: 45px;
     }
     @media only screen and (max-width: 1199px) {
-      .hero-content h1 {
+      .hero-content h1,h2,h3 {
         font-size: 55px; } }
     @media only screen and (max-width: 767px) {
-      .hero-content h1 {
+      .hero-content h1,h2,h3 {
         font-size: 45px; } }
     @media only screen and (max-width: 575px) {
-      .hero-content h1 {
+      .hero-content h1,h2,h3 {
         font-size: 40px; } }
     @media only screen and (max-width: 375px) {
-      .hero-content h1 {
+      .hero-content h1,h2,h3 {
         font-size: 33px;
         line-height: 1.3; } }
   .hero-content p {
@@ -3767,7 +3767,7 @@ h6, .h6 {
 .hero-images {
   z-index: 1;
   position: relative;
-  margin-bottom: -80px; }
+  margin-bottom: 190px; }
   @media only screen and (min-width: 1400px) {
     .hero-images {
       margin-left: -8%;
@@ -5336,12 +5336,14 @@ h6, .h6 {
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 30px;
-  background: var(--lighter-color); }
+
+  /* background: var(--lighter-color);  */
+}
   @media only screen and (max-width: 375px) {
     .partner-item {
       height: 65px; } }
   .partner-item:hover {
-    background: white;
+    background: rgb(255, 255, 255);
     -webkit-box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2);
     box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2); }
 
