@@ -163,14 +163,14 @@ const TestimonialsSlider2 = () => {
     setNav2(slider2);
   });
   const thumbs = {
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     infinite: false,
-    speed: 400,
+    speed: 2100,
     arrows: false,
     focusOnSelect: true,
     autoplay: false,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 2100,
     responsive: [
       {
         breakpoint: 480,
@@ -187,13 +187,13 @@ const TestimonialsSlider2 = () => {
     ],
   };
   const slider = {
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
-    speed: 900,
+    speed: 2100,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 900,
+    autoplaySpeed: 2100,
     
   };
   return (
