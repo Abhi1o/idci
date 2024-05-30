@@ -17,7 +17,7 @@ const Index = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-8 align-self-center">
-              <div className="hero-content pt-115 pb-125 rpb-0 wow fadeInUp delay-0-4s">
+              <div className="hero-content pt-md-50 pt-lg-115 pb-125 rpb-0 wow fadeInUp delay-0-4s">
                 <h3>
                   National & Overseas Bad Debt Management Corporate Consultant
                   &amp; Technology Solutions
@@ -28,7 +28,7 @@ const Index = () => {
                 </p>
                 <Link legacyBehavior href="/contact">
                   <a className="theme-btn mt-20 wow fadeInUp delay-0-6s">
-                    Book an appoinment <i className="fas fa-long-arrow-right" />
+                    Book an appointment <i className="fas fa-long-arrow-right" />
                   </a>
                 </Link>
                 <div className="hero-shapes">
@@ -446,7 +446,7 @@ const Index = () => {
                   <p>
                     We provide Debtors collection/recovery services overseas
                     too. All overseas countries we cover under Technical Debtors
-                    Recovery Systems. IDCI has recovered overseas balance
+                    Recovery Systems. Idci has recovered overseas balance
                     outstanding payment of exporters & importers from Taiwan,
                     Chine & Dubai in two months
                   </p>
@@ -1030,7 +1030,7 @@ const Index = () => {
                   </div>
                   <p>
                     As a business grows, it is inevitable that it will begin
-                    partnering with organisations outside its home country.
+                    partnering with organizations outside its home country.
                     Collecting debts from clients...
                   </p>
                   <Link legacyBehavior href="/blog-details">

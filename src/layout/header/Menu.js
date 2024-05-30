@@ -51,26 +51,24 @@ const MobileMenu = () => {
                 Home
               </Link>
             </li>
-            <li className="#">
-              <Link href="services" onClick={() => active("services")}>
-                services
-              </Link>
-            </li>
-            <li className="">
-             <Link href="blog" onClick={() => active("blog")}>
-                blog
-             </Link>
-            </li>
             <li className="dropdown">
-             <Link href="contact" onClick={() => active("pages")}>
-                Contact us
-             </Link>
-            </li>
-            <li className="">
-             <Link href="faqs" onClick={() => active("blog")}>
-                Faqs
-             </Link>
-            </li>
+           <Link href="services">services</Link>
+          </li>
+          <li className="">
+           <Link href="client">client</Link>
+          </li>
+          <li className="dropdown">
+           <Link href="client-review">Client Review</Link>
+          </li>
+          <li className="dropdown">
+           <Link href="blog">blog</Link>
+          </li>
+          <li className="dropdown">
+           <Link href="contact">Contact Us</Link>
+          </li>
+          <li>
+            <Link href="faqs">Faqs</Link>
+          </li>
           </ul>
         </Accordion.Collapse>
       </Accordion>

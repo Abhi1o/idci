@@ -3765,9 +3765,9 @@ h6, .h6 {
     @media only screen and (min-width: 768px) {
       .hero-content .sub-title {
         font-size: 18px; } }
-  .hero-content h1 {
+  .hero-content h3 {
     color: white;
-    font-size: 65px; }
+    font-size: 35px; }
     .logo h3{
       color: rgb(255, 74, 74);
       font-size: 35px;
@@ -3777,17 +3777,17 @@ h6, .h6 {
       font-size: 45px;
     }
     @media only screen and (max-width: 1199px) {
-      .hero-content h1,h2,h3 {
-        font-size: 55px; } }
-    @media only screen and (max-width: 767px) {
-      .hero-content h1,h2,h3 {
-        font-size: 45px; } }
-    @media only screen and (max-width: 575px) {
-      .hero-content h1,h2,h3 {
+      .hero-content h3 {
         font-size: 40px; } }
-    @media only screen and (max-width: 375px) {
-      .hero-content h1,h2,h3 {
-        font-size: 33px;
+    @media only screen and (max-width: 767px) {
+      .hero-content h3 {
+        font-size: 40px; } }
+    @media only screen and (max-width: 575px) {
+      .hero-content h3 {
+        font-size: 38px; } }
+    @media only screen and (max-width: 480px) {
+      .hero-content h3 {
+        font-size: 28px;
         line-height: 1.3; } }
   .hero-content p {
     color: white;
@@ -5353,7 +5353,7 @@ h6, .h6 {
 /****************** ## Partners Area ******************/
 /*******************************************************/
 .partner-item {
-  height: 85px;
+  height: 95px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -5376,8 +5376,9 @@ h6, .h6 {
       height: 65px; } }
   .partner-item:hover {
     background: rgb(255, 255, 255);
-    -webkit-box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2);
-    box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2); }
+    /* -webkit-box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2);
+    box-shadow: 3px 0 60px rgba(103, 77, 243, 0.2); } */
+  }
 
 .partners-shapes .left-shape {
   position: absolute;

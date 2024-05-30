@@ -92,11 +92,7 @@ const Services = () => {
         <div className="container">
           <div className="video-wrap-two wow fadeInUp delay-0-2s">
             <img src="assets/images/background/video.jpg" alt="Video" />
-            <a
-              href="#"
-              className="mfp-iframe video-play"
-              tabIndex={-1}
-            >
+            <a href="#" className="mfp-iframe video-play" tabIndex={-1}>
               <i className="fas fa-play" />
             </a>
           </div>
@@ -142,11 +138,15 @@ const Services = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      Court Sattlement
+                      Court Settlement
                     </Link>
                   </h4>
                   <p>
-                  we provide expert court settlement services designed to resolve disputes efficiently and amicably. Our experienced legal team is dedicated to helping you achieve fair and satisfactory outcomes without the need for prolonged litigation. 
+                    we provide expert court settlement services designed to
+                    resolve disputes efficiently and amicably. Our experienced
+                    legal team is dedicated to helping you achieve fair and
+                    satisfactory outcomes without the need for prolonged
+                    litigation.
                   </p>
                 </div>
               </div>
@@ -256,7 +256,7 @@ const Services = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                          24/7 Tehnical Support
+                          24/7 Technical Support
                         </Link>
                       </h4>
                     </div>

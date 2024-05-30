@@ -104,7 +104,7 @@ const Blog = () => {
                       </Link>
                     </h4>
                     <p>
-                    As a business grows, it is inevitable that it will begin partnering with organisations outside its home country.  Collecting debts from clients...
+                    As a business grows, it is inevitable that it will begin partnering with organizations outside its home country.  Collecting debts from clients...
                     </p>
                     <div className="blog-meta-two">
                       <a className="author" href="#">
