@@ -4,8 +4,7 @@ import { projectSliderActive } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Slider from "react-slick";
-
-
+import {TestimonialImageSlider1} from "@/src/components/slider/TestimonialsSlider"
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
@@ -19,16 +18,21 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-8 align-self-center">
               <div className="hero-content pt-115 pb-125 rpb-0 wow fadeInUp delay-0-4s">
-                <h3>National & Overseas Bad Debt Management Corporate Consultant &amp; Technology Solutions</h3>
+                <h3>
+                  National & Overseas Bad Debt Management Corporate Consultant
+                  &amp; Technology Solutions
+                </h3>
                 <p>
-                We aim to provide the best of our collection and recovery services to those clients who are skilled
+                  We aim to provide the best of our collection and recovery
+                  services to those clients who are skilled
                 </p>
                 <Link legacyBehavior href="/contact">
                   <a className="theme-btn mt-20 wow fadeInUp delay-0-6s">
-                  Book an appoinment <i className="fas fa-long-arrow-right" />
+                    Book an appoinment <i className="fas fa-long-arrow-right" />
                   </a>
                 </Link>
                 <div className="hero-shapes">
+                
                   <img
                     className="shape one"
                     src="assets/images/shapes/dabble-plus.png"
@@ -44,6 +48,7 @@ const Index = () => {
                     src="assets/images/shapes/plus.png"
                     alt="Shape"
                   />
+                  
                 </div>
               </div>
             </div>
@@ -75,57 +80,9 @@ const Index = () => {
             <span className="sub-title mb-15">Global Partners</span>
             <h2>TRUSTED BY MORE THAN 120+ COMPANIES</h2>
           </div>
-          <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2 justify-content-center">
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item wow fadeInUp delay-0-3s">
-                  <img
-                    src="https://idci.in/Company%20Logo/1ab.png"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item wow fadeInUp delay-0-4s">
-                  <img
-                    src="https://idci.in/Company%20Logo/advance.png"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item wow fadeInUp delay-0-5s">
-                  <img
-                    src="https://idci.in/Company%20Logo/gyan.png"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item wow fadeInUp delay-0-6s">
-                  <img
-                    src="https://idci.in/Company%20Logo/fuji.png"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="https://idci.in/Company%20Logo/nath3.jpg"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
+          <div className="mw-100" >
+          <TestimonialImageSlider1/>
+            
           </div>
         </div>
       </section>
@@ -141,7 +98,11 @@ const Index = () => {
                   <h2>We are the Intentional Defaulter Corporate Of India.</h2>
                 </div>
                 <p>
-                We are Delhi based Debtors Recovery/collection consultant. We started this services in January, 2014, almost 10 years of experience we have but overall experience of this field is 18 years. We provide this service especially to Corporate Clients whether Indian or Overseas.
+                  We are Delhi based Debtors Recovery/collection consultant. We
+                  started this services in January, 2014, almost 10 years of
+                  experience we have but overall experience of this field is 18
+                  years. We provide this service especially to Corporate Clients
+                  whether Indian or Overseas.
                 </p>
                 <div className="about-btns mb-45">
                   <Link legacyBehavior href="/about">
@@ -154,7 +115,7 @@ const Index = () => {
                     <div className="content">
                       <span>Hotline</span>
                       <br />
-                      <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="callto:+91 8130371014">+91 8130371014</a>
                     </div>
                   </div>
                 </div>
@@ -169,16 +130,16 @@ const Index = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                        Motto
+                          Motto
                         </Link>
                       </h4>
                       <p>
-                      Providing best recovery and collection service to Indian and overseas corporate clients.
+                        Providing best recovery and collection service to Indian
+                        and overseas corporate clients.
                       </p>
                     </div>
                   </div>
-                  
-                 
+
                   <div className="col-sm-6">
                     <div className="service-item">
                       <div className="icon">
@@ -189,14 +150,15 @@ const Index = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                        What we do
+                          What we do
                         </Link>
                       </h4>
                       <p>
-                      We try to recover and collect even those payment which is older than 3 years and legally dead.
+                        We try to recover and collect even those payment which
+                        is older than 3 years and legally dead.
                       </p>
                     </div>
-                  </div> 
+                  </div>
                   <div className="col-sm-6">
                     <div className="service-item">
                       <div className="icon">
@@ -207,12 +169,10 @@ const Index = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                        Achievement
+                          Achievement
                         </Link>
                       </h4>
-                      <p>
-                      Our success rate is more than 90%.
-                      </p>
+                      <p>Our success rate is more than 90%.</p>
                     </div>
                   </div>
                   <div className="col-sm-6  ">
@@ -225,12 +185,10 @@ const Index = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                        International
+                          International
                         </Link>
                       </h4>
-                      <p>
-                      Structured network of overseas clients.
-                      </p>
+                      <p>Structured network of overseas clients.</p>
                     </div>
                   </div>
                   <div className="col-sm-6">
@@ -243,11 +201,13 @@ const Index = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                        Experience
+                          Experience
                         </Link>
                       </h4>
                       <p>
-                      We are 10 years young young debtors/collection consultant. But overall we have 18 years of experience..</p>
+                        We are 10 years young young debtors/collection
+                        consultant. But overall we have 18 years of experience..
+                      </p>
                     </div>
                   </div>
                   <div className="col-sm-6">
@@ -260,11 +220,13 @@ const Index = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                        B2B
+                          B2B
                         </Link>
                       </h4>
                       <p>
-                      We have framed this service for corporate clients. We have always focused on quick collection and recovery of payment from Intentional defaulters.
+                        We have framed this service for corporate clients. We
+                        have always focused on quick collection and recovery of
+                        payment from Intentional defaulters.
                       </p>
                     </div>
                   </div>
@@ -403,8 +365,11 @@ const Index = () => {
           <div className="row medium-gap">
             <div className="col-xl-4 col-md-6">
               <div className="section-title mb-60 wow fadeInUp delay-0-2s">
-                <h2>We Provide Best IT Services</h2>
-                <span className="sub-title mb-15">We are mainly experienced in providing following types of recovery services.</span>
+                <h2>We Provide Best Services</h2>
+                <span className="sub-title mb-15">
+                  We are mainly experienced in providing following types of
+                  recovery services.
+                </span>
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
@@ -415,64 +380,15 @@ const Index = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="service-details">
-                    Legal Recovery
+                      Legal Recovery
                     </Link>
                   </h4>
                   <p>
-                  This recovery follow the court procedure. It is time taking, but we have some good, effective and different strategies for our valuable clients in LEGAL Recovery System to recover the long outstanding payment from the INTENTIONAL DEFAULTERS.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="service-two-item wow fadeInUp delay-0-6s">
-                <div className="icon">
-                  <i className="flaticon-coding" />
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link legacyBehavior href="service-details">
-                      Technical&amp; Recovery
-                    </Link>
-                  </h4>
-                  <p>
-                  This is a fast process payment recovery system, which work on fast modus of operandi. In this process we recover the long pending payment from the INTENTIONAL DEFAULTERS corporate clients at pan India in very small duration.
-
-Technical Debtors Recovery System is a fast process for BAD DEBT, therefore sometimes we have recovered payment within 5 days, sometimes in 10 days, sometimes in one month, sometimes in three months.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="service-two-item wow fadeInUp delay-0-3s">
-                <div className="icon">
-                  <i className="flaticon-app-development" />
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link legacyBehavior href="service-details">
-                    Private Settlement
-                    </Link>
-                  </h4>
-                  <p>
-                  In the fast busy work environment for the corporate client whether Indian or Overseas: We have developed a Private Settlement procedure for quick result oriented resolution of bad debt matters. We less prefer to take the cases/matter to the court, we believe that going court is totally wastage of time and money both..
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="service-two-item wow fadeInUp delay-0-5s">
-                <div className="icon">
-                  <i className="flaticon-logo" />
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link legacyBehavior href="service-details">
-                    Overseas Debtors Recovery Systems.
-                    </Link>
-                  </h4>
-                  <p>
-                  We provide Debtors collection/recovery services overseas too. All overseas countries we cover under Technical Debtors Recovery Systems. IDCI has recovered overseas balance outstanding payment of exporters & importers from Taiwan, Chine & Dubai in two months
+                    This recovery follow the court procedure. It is time taking,
+                    but we have some good, effective and different strategies
+                    for our valuable clients in LEGAL Recovery System to recover
+                    the long outstanding payment from the INTENTIONAL
+                    DEFAULTERS.
                   </p>
                 </div>
               </div>
@@ -485,12 +401,74 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      SEO Optimization
+                    Court Settlement
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                  we provide expert court settlement services designed to resolve disputes efficiently and amicably. Our experienced legal team is dedicated to helping you achieve fair and satisfactory outcomes without the need for prolonged litigation. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="service-two-item wow fadeInUp delay-0-3s">
+                <div className="icon">
+                  <i className="flaticon-app-development" />
+                </div>
+                <div className="content">
+                  <h4>
+                    <Link legacyBehavior href="service-details">
+                      Private Settlement
+                    </Link>
+                  </h4>
+                  <p>
+                    In the fast busy work environment for the corporate client
+                    whether Indian or Overseas: We have developed a Private
+                    Settlement procedure for quick result oriented resolution of
+                    bad debt matters. We less prefer to take the cases/matter to
+                    the court, we believe that going court is totally wastage of
+                    time and money both..
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="service-two-item wow fadeInUp delay-0-5s">
+                <div className="icon">
+                  <i className="flaticon-logo" />
+                </div>
+                <div className="content">
+                  <h4>
+                    <Link legacyBehavior href="service-details">
+                      Overseas Debtors Recovery Systems.
+                    </Link>
+                  </h4>
+                  <p>
+                    We provide Debtors collection/recovery services overseas
+                    too. All overseas countries we cover under Technical Debtors
+                    Recovery Systems. IDCI has recovered overseas balance
+                    outstanding payment of exporters & importers from Taiwan,
+                    Chine & Dubai in two months
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="service-two-item wow fadeInUp delay-0-6s">
+                <div className="icon">
+                  <i className="flaticon-coding" />
+                </div>
+                <div className="content">
+                  <h4>
+                    <Link legacyBehavior href="service-details">
+                      Technical Recovery
+                    </Link>
+                  </h4>
+                  <p>
+                    This is a fast process payment recovery system, which work
+                    on fast modus of operandi. In this process we recover the
+                    long pending payment from the INTENTIONAL DEFAULTERS
+                    corporate clients at pan India in very small duration.
                   </p>
                 </div>
               </div>
@@ -509,15 +487,16 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
           <img src="assets/images/shapes/work-process-line.png" alt="line" />
         </div>
         <div className="container">
-          <div className="row row-cols-xl-5 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div className="row row-cols-xl-5 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-between ">
             <div className="col">
               <div className="work-process-item mt-40 wow fadeInUp delay-0-2s">
                 <div className="number">01</div>
                 <div className="content">
-                  <h4>Discover</h4>
+                  <h4>Evaluate debt status</h4>
                   <p>
-                    We emphasize planning get everything document nothing
-                    assumption
+                    Involves assessing the status of the debt, including the
+                    amount owed, the debtor's contact information, any existing
+                    agreements or contracts, and the timeline of the debt.
                   </p>
                 </div>
               </div>
@@ -526,10 +505,12 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
               <div className="work-process-item mt-10 wow fadeInDown delay-0-2s">
                 <div className="number">02</div>
                 <div className="content">
-                  <h4>Planning</h4>
+                  <h4>Demand Notice</h4>
                   <p>
-                    Our design approach is to simplify. We embrace creating
-                    something.
+                    Issue a formal demand letter to the debtor, clearly stating
+                    the amount owed, the deadline for payment, consequences of
+                    non-payment (such as legal action), and a request for
+                    immediate settlement.
                   </p>
                 </div>
               </div>
@@ -538,10 +519,11 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
               <div className="work-process-item mt-40 wow fadeInUp delay-0-2s">
                 <div className="number">03</div>
                 <div className="content">
-                  <h4>Design &amp; Dev</h4>
+                  <h4>Negotiate Payment</h4>
                   <p>
-                    At this step, we cater to requirement backed web services
-                    development
+                    Engage in negotiations with the debtor to reach a mutually
+                    agreeable settlement, which may involve payment plans,
+                    reduced amounts, or alternative forms of repayment.{" "}
                   </p>
                 </div>
               </div>
@@ -550,10 +532,12 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
               <div className="work-process-item wow fadeInDown delay-0-2s">
                 <div className="number">04</div>
                 <div className="content">
-                  <h4>Testing</h4>
+                  <h4>Legal Action</h4>
                   <p>
-                    On the other denounce with righteous indignation dislike
-                    beguile demode
+                    If negotiations fail or the debtor refuses to comply,
+                    proceed with legal action. This may include filing a
+                    lawsuit, obtaining a court judgment, and enforcing legal
+                    remedies such as wage garnishment or asset seizure.
                   </p>
                 </div>
               </div>
@@ -562,10 +546,11 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
               <div className="work-process-item mt-50 wow fadeInUp delay-0-2s">
                 <div className="number">05</div>
                 <div className="content">
-                  <h4>Project Deliver</h4>
+                  <h4>Recovered Debt </h4>
                   <p>
-                    We denounce righteous indignation and dislike men who
-                    beguiled
+                    After legal action and enforcement, the debt has been fully
+                    recovered through court-approved methods such as asset
+                    seizure, wage garnishment, or negotiated settlement.
                   </p>
                 </div>
               </div>
@@ -942,28 +927,32 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                   <ul className="blog-meta">
                     <li>
                       <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Jule 26, 2024</a>
+                      <a href="#">May 26, 2024</a>
                     </li>
                     <li>
                       <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Comments (25)</a>
+                      <a href="#">Comments (5)</a>
                     </li>
                   </ul>
                   <h4>
                     <Link legacyBehavior href="blog-details">
-                      Voice Usabilit Consideration Partially Visually Hidden
+                      Legal Action to Recover your Debt
                     </Link>
                   </h4>
                   <div className="author">
-                    <img src="assets/images/blog/author.jpg" alt="Author" />
+                    <img
+                      src="https://irblaw.com.sg/wp-content/uploads/2021/06/rabi-ahmad-150.jpg.webp"
+                      alt="Author"
+                    />
                     <i>Post By </i>
-                    <a href="#">John M. Brecht</a>
+                    <a href="#">Rabi Ahmad</a>
                   </div>
                   <p>
-                    We denounce righteou indignation and dislike men beguile and
-                    demoralize charms
+                    The problem these smaller businesses and private individuals
+                    face revolves around the costs involved in taking debt legal
+                    advice...
                   </p>
-                  <Link legacyBehavior href="/blog-details">
+                  <Link legacyBehavior href="/blog">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -980,28 +969,32 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                   <ul className="blog-meta">
                     <li>
                       <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Jule 26, 2024</a>
+                      <a href="#"> March 08, 2024</a>
                     </li>
                     <li>
                       <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Comments (25)</a>
+                      <a href="#">Comments (2)</a>
                     </li>
                   </ul>
                   <h4>
-                    <Link legacyBehavior href="blog-details">
-                      How Create Vanil Java Script Gant Chart Adding Task
+                    <Link legacyBehavior href="blog">
+                      Debt Collection Strategies to Reduce Your Bad Debts
                     </Link>
                   </h4>
                   <div className="author">
-                    <img src="assets/images/blog/author.jpg" alt="Author" />
+                    <img
+                      src="https://irblaw.com.sg/wp-content/uploads/2018/08/ameera-bajrai.jpg.webp"
+                      alt="Author"
+                    />
                     <i>Post By </i>
-                    <a href="#">John M. Brecht</a>
+                    <a href="#">Ameera Bajrai</a>
                   </div>
                   <p>
-                    We denounce righteou indignation and dislike men beguile and
-                    demoralize charms
+                    From understanding your debtor's position to using
+                    technology to your advantage, these strategies cover the
+                    essentials of efficient...
                   </p>
-                  <Link legacyBehavior href="/blog-details">
+                  <Link legacyBehavior href="/blog">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -1018,26 +1011,27 @@ Technical Debtors Recovery System is a fast process for BAD DEBT, therefore some
                   <ul className="blog-meta">
                     <li>
                       <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Jule 26, 2024</a>
+                      <a href="#">Jan 26, 2024</a>
                     </li>
                     <li>
                       <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Comments (25)</a>
+                      <a href="#">Comments (9)</a>
                     </li>
                   </ul>
                   <h4>
                     <Link legacyBehavior href="blog-details">
-                      Smashing Podcast Episode 47 Soueidan Accessibility
+                      Managing Overseas Aged Debt
                     </Link>
                   </h4>
                   <div className="author">
                     <img src="assets/images/blog/author.jpg" alt="Author" />
                     <i>Post By </i>
-                    <a href="#">John M. Brecht</a>
+                    <a href="#">Giles Goodman</a>
                   </div>
                   <p>
-                    We denounce righteou indignation and dislike men beguile and
-                    demoralize charms
+                    As a business grows, it is inevitable that it will begin
+                    partnering with organisations outside its home country.
+                    Collecting debts from clients...
                   </p>
                   <Link legacyBehavior href="/blog-details">
                     <a className="read-more">

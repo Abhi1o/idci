@@ -4,38 +4,70 @@ import Link from "next/link";
 import ReviewsCards from "@/src/components/slider/ReviewCards";
 
 const BlogDetails = () => {
-  const reviews = [
+  const clientReviews = [
     {
-      image: 'https://idci.in/Clients%20Logo/Mammen.png', // replace with actual image URLs
-      name: 'Mammen Exports',
-      title: 'Varghese P. Mammen',
-      review: ' Dear Mr. Paras Kumar, On behalf of our company, I would like to extend a word thanks to Mr. Paras Kumar, Clo. Corporate Law Firm & Consultant for his services rendered to us pertaining to export outstanding dues of our buyer. Through his expertise in this field, he was able to successfully collect the outstanding amount from the buyer in Taiwan. The time taken for the whole process is also commendable. We wish him great success and may give more opportunities to recover bad debts of other companies from their customers.',
-      position: 'President',
-      rating: 5
+      pdfUrl: "assets/CompanyLogo/Mamenexport(2).png",
+      image:"assets/CompanyLogo/Mamenexport(2).png",
+      companyName: "Mammen Exports",
+      stars: 4,
     },
     {
-      image: 'https://idci.in/Clients%20Logo/sai_international.jpeg', // replace with actual image URLs
-      name: 'Sai International',
-      title: 'Ajay Khaspuriya',
-      review: 'We highly appreciate for the Recovery and Collection services of your company. Our payment Rs 16,00,000/- was on hold for last 1 and half years with Teno n Facility Management India Pvt Ltd. 458, UdyogVihar, Phase – V, Sector – 19, Gurgaon, Haryana, for thecourier & logistic services provided at pan India to this company Without any legal action and court case, you recovered our Bad Debt. You saved our time and money both. We appreciate your work process. You involved all the senior management in our payment recovery. The Biggest thing is that those who were not attending us, were ready to meet us face to face. Thank you very much for recovery of our Bad Debt',
-      position: 'Director',
-      rating: 4
+      pdfUrl: "assets/CompanyLogo/Nath.png",
+      image:"assets/CompanyLogo/Nath.png",
+      companyName: "Nath & Nath",
+      stars: 5,
     },
     {
-      image: 'https://idci.in/Clients%20Logo/egis.png', // replace with actual image URLs
-      name: 'Jason Chedd',
-      title: 'Sumit Kumar',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor eveniet deleniti repellendus? Minima, dolorem.',
-      position: 'Director',
-      rating: 5
-    }
+      pdfUrl: "assets/CompanyLogo/Plaintiff.png",
+      image:"assets/CompanyLogo/Plaintiff.png",
+      companyName: "Plaintiff ",
+      stars: 5,
+    },
+    
+    // Add more client reviews as needed
   ];
+  
+  
+
   return (
     <Layout>
       <PageBanner pageName={"Client Review"} />
       <section className="blog-details-area py-130 rpy-100">
         <div className="container">
-        <div className="container wow fadeInUp delay-0-2s">
+
+
+        <div className="row justify-content-center ">
+            {clientReviews.map((review, index) => (
+              <div className="col-md-6 col-lg-4 pb-90" key={index}>
+                <div className="client-review-card text-center mb-4 legacyBehavior h-auto">
+                  {/* PDF Letterhead */}
+                  
+                  <a href={review.pdfUrl} tabIndex={-1} className={`partner-item-two wow fadeInUp  mfp-iframe delay-0-${index + 3}s `}>
+                
+                      <img
+                        src={review.image}
+                        alt="PDF Letterhead"
+                        className="pdf-letterhead img-fluid d-block fixed-size-img letter-head-img"
+                        // style={{ maxHeight: '600px', }}
+                        // width= "60%"
+                        
+                      />
+                      </a>
+                  
+                  {/* Company Name */}
+                  <h4>{review.companyName}</h4>
+                  {/* Star Ratings */}
+                  <div className="star-ratings">
+                    {Array.from({ length: review.stars }, (_, i) => (
+                      <span className="fas fa-star text-warning" key={i}></span>
+                    ))}
+                    
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        {/* <div className="container wow fadeInUp delay-0-2s">
       <div className="row">
         {reviews.map((review, index) => (
           <ReviewsCards
@@ -49,7 +81,7 @@ const BlogDetails = () => {
           />
         ))}
       </div>
-    </div>
+    </div> */}
           <div className="row ">
             <div className="col-lg-12">
               {/* <div className="blog-details-content wow fadeInUp delay-0-2s">
@@ -297,11 +329,13 @@ const BlogDetails = () => {
 
 
               <form
-                onSubmit={(e) => e.preventDefault()}
+                // onSubmit={(e) => e.preventDefault()}
                 id="comment-form"
                 className="comment-form bgc-lighter mt-80 wow fadeInUp delay-0-2s"
+                action="https://formspree.io/f/xnqeykwz"
+                method="POST"
               >
-                <h4>Leave a Message</h4>
+                <h4>Leave a Feedback</h4>
                 <p>Have any question? Ready to talk to us! </p>
                 <div className="row mt-15">
                   <div className="col-md-6">
@@ -360,7 +394,7 @@ const BlogDetails = () => {
                         </label>
                       </div>
                       <button type="submit" className="theme-btn style-two">
-                        Send Comment <i className="fas fa-arrow-right" />
+                        Send Feedback <i className="fas fa-arrow-right" />
                       </button>
                     </div>
                   </div>

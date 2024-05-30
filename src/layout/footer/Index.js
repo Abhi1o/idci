@@ -24,11 +24,12 @@ const Footer = () => {
               </a>
             </Link>
             <div className="hotline wow fadeInRight delay-0-2s">
-              <i className="fas fa-phone" />
+                <i className="fas fa-phone" />
               <div className="content">
                 <span>Hotline</span>
                 <br />
-                <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                <a href="callto:+91 8130371014">+91 8130371014</a>
+                
               </div>
             </div>
           </div>
@@ -44,8 +45,7 @@ const Footer = () => {
                 </Link>
               </div>
               <p>
-                Sed perspiciatis unde omnste natus error voluptatem accusanti
-                doloreue audantium totamrem aeriam.
+              We aim to provide the best of our collection and recovery services to those clients who are skilled
               </p>
               <Link legacyBehavior href="/about">
                 <a className="read-more">
@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="footer-widget widget_newsletter wow fadeInUp delay-0-6s">
               <h4 className="footer-title">Newsletter</h4>
               <p>
-                Sed perspiciatis unde omnste natus error voluptatem accusante.
+              Reading our latest updates on the Debt Recovery Project.
               </p>
               <form onSubmit={(e) => e.preventDefault()} action="#">
                 <label htmlFor="email">
@@ -102,7 +102,7 @@ const Footer = () => {
                       >{`Company History`}</Link>
                     </li> */}
                     <li>
-                      <Link legacyBehavior href="about">{`About Company`}</Link>
+                      <Link className="legacyBehavior" href="">{`Client Reviews`}</Link>
                     </li>
                     <li>
                       <Link
@@ -126,7 +126,7 @@ const Footer = () => {
                       <Link
                         legacyBehavior
                         href="blog"
-                      >{`Blog &amp; News`}</Link>
+                      >{`Blog & News`}</Link>
                     </li>
                     <li>
                       <Link legacyBehavior href="contact">{`Contact us`}</Link>
@@ -136,34 +136,34 @@ const Footer = () => {
               </div>
               <div className="col-md-4 col-6 col-small">
                 <div className="footer-widget widget_nav_menu wow fadeInUp delay-0-4s">
-                  <h4 className="footer-title">Services</h4>
+                  <h4 className="footer-title">Our Services</h4>
                   <ul className="list-style-two">
-                    {/* <li>
+                    <li>
                       <Link legacyBehavior href="service-details">
-                        <a>Product Design</a>
-                      </Link>
-                    </li> */}
-                    {/* <li>
-                      <Link legacyBehavior href="service-details">
-                        <a>Design &amp; Development</a>
-                      </Link>
-                    </li> */}
-                    {/* <li>
-                      <Link legacyBehavior href="service-details">
-                        <a>UX/UI Strategy</a>
-                      </Link>
-                    </li> */}
-                    {/* <li>
-                      <Link legacyBehavior href="service-details">
-                        <a>Search Engine</a>
+                        <a>Legal Recovery</a>
                       </Link>
                     </li>
                     <li>
                       <Link legacyBehavior href="service-details">
-                        <a>IT Consulting</a>
+                        <a>Technical Recovery</a>
                       </Link>
                     </li>
                     <li>
+                      <Link legacyBehavior href="service-details">
+                        <a>Private Settlement</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="service-details">
+                        <a>Overseas Cases</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="service-details">
+                        <a>Arbitration</a>
+                      </Link>
+                    </li>
+                    {/* <li>
                       <Link legacyBehavior href="service-details">
                         <a>Software Development</a>
                       </Link>
@@ -178,21 +178,26 @@ const Footer = () => {
               </div>
               <div className="col-md-4 col-6 col-small">
                 <div className="footer-widget widget_nav_menu wow fadeInUp delay-0-5s">
-                  <h4 className="footer-title">Support</h4>
+                  <h4 className="footer-title">Company</h4>
                   <ul className="list-style-two">
                     <li>
                       <Link legacyBehavior href="/contact">
-                        <a>Start Here</a>
+                        <a>Suggestions</a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="about">
-                        Style guide
+                      <Link legacyBehavior href="contact">
+                        <a>Contact Us</a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="404">
-                        <a>404 Not Found</a>
+                      <Link legacyBehavior href="client">
+                        <a>Give Review</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="blog">
+                        <a>News</a>
                       </Link>
                     </li>
                     {/* <li>
@@ -219,8 +224,8 @@ const Footer = () => {
       </div>
       <div className="footer-bottom bgc-black mt-20 pt-20">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-8">
+          <div className="row align-text-center align">
+            {/* <div className="col-lg-8">
               <div className="footer-bottom-menu mb-10 wow fadeInRight delay-0-2s">
                 <ul>
                   <li>
@@ -240,11 +245,11 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="col-lg-4">
+            </div> */}
+           
               <div className="copyright-text text-lg-end wow fadeInLeft delay-0-2s">
-                <p>© 2024 idci. All rights reserved.</p>
-              </div>
+                <p className="text-center">© 2024 idci. Made by <span className="underline">ARS Innovations.</span></p>
+              
             </div>
           </div>
         </div>

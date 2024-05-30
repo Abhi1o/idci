@@ -20,10 +20,11 @@ const Services = () => {
               <div className="work-process-item mt-40 wow fadeInUp delay-0-2s">
                 <div className="number">01</div>
                 <div className="content">
-                  <h4>Discover</h4>
+                  <h4>Evaluate debt status</h4>
                   <p>
-                    We emphasize planning get everythin documente nothing
-                    assumption
+                    Involves assessing the status of the debt, including the
+                    amount owed, the debtor's contact information, any existing
+                    agreements or contracts, and the timeline of the debt.
                   </p>
                 </div>
               </div>
@@ -32,10 +33,12 @@ const Services = () => {
               <div className="work-process-item mt-10 wow fadeInDown delay-0-2s">
                 <div className="number">02</div>
                 <div className="content">
-                  <h4>Planning</h4>
+                  <h4>Demand Notice</h4>
                   <p>
-                    Our design approach is to simplify. We embrace creating
-                    something.
+                    Issue a formal demand letter to the debtor, clearly stating
+                    the amount owed, the deadline for payment, consequences of
+                    non-payment (such as legal action), and a request for
+                    immediate settlement.
                   </p>
                 </div>
               </div>
@@ -44,10 +47,11 @@ const Services = () => {
               <div className="work-process-item mt-40 wow fadeInUp delay-0-2s">
                 <div className="number">03</div>
                 <div className="content">
-                  <h4>Design &amp; Dev</h4>
+                  <h4>Negotiate Payment</h4>
                   <p>
-                    At this step, we cater to requirement backed web services
-                    developmenc
+                    Engage in negotiations with the debtor to reach a mutually
+                    agreeable settlement, which may involve payment plans,
+                    reduced amounts, or alternative forms of repayment.{" "}
                   </p>
                 </div>
               </div>
@@ -56,10 +60,12 @@ const Services = () => {
               <div className="work-process-item wow fadeInDown delay-0-2s">
                 <div className="number">04</div>
                 <div className="content">
-                  <h4>Testing</h4>
+                  <h4>Legal Action</h4>
                   <p>
-                    On the other denounce with righteou indignation dislike
-                    beguile demore
+                    If negotiations fail or the debtor refuses to comply,
+                    proceed with legal action. This may include filing a
+                    lawsuit, obtaining a court judgment, and enforcing legal
+                    remedies such as wage garnishment or asset seizure.
                   </p>
                 </div>
               </div>
@@ -68,10 +74,11 @@ const Services = () => {
               <div className="work-process-item mt-50 wow fadeInUp delay-0-2s">
                 <div className="number">05</div>
                 <div className="content">
-                  <h4>Project Deliver</h4>
+                  <h4>Recovered Debt</h4>
                   <p>
-                    We denounce righteous indignation and dislike men who
-                    beguiled
+                    After legal action and enforcement, the debt has been fully
+                    recovered through court-approved methods such as asset
+                    seizure, wage garnishment, or negotiated settlement.
                   </p>
                 </div>
               </div>
@@ -86,7 +93,7 @@ const Services = () => {
           <div className="video-wrap-two wow fadeInUp delay-0-2s">
             <img src="assets/images/background/video.jpg" alt="Video" />
             <a
-              href="https://www.youtube.com/watch?v=9Y7ma241N8k"
+              href="#"
               className="mfp-iframe video-play"
               tabIndex={-1}
             >
@@ -103,7 +110,7 @@ const Services = () => {
             <div className="col-xl-4 col-md-6">
               <div className="section-title mb-60 wow fadeInUp delay-0-2s">
                 <span className="sub-title mb-15">Latest Services</span>
-                <h2>We Provide Best IT Services</h2>
+                <h2>We Provide Best Services</h2>
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
@@ -114,12 +121,15 @@ const Services = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      Digital Consulting
+                      Legal Recovery
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    This recovery follow the court procedure. It is time taking,
+                    but we have some good, effective and different strategies
+                    for our valuable clients in LEGAL Recovery System to recover
+                    the long outstanding payment from the INTENTIONAL
+                    DEFAULTERS.
                   </p>
                 </div>
               </div>
@@ -132,12 +142,11 @@ const Services = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      Design &amp; Development
+                      Court Sattlement
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                  we provide expert court settlement services designed to resolve disputes efficiently and amicably. Our experienced legal team is dedicated to helping you achieve fair and satisfactory outcomes without the need for prolonged litigation. 
                   </p>
                 </div>
               </div>
@@ -150,12 +159,16 @@ const Services = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      Mobile App Solutions
+                      Private Settlement
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    In the fast busy work environment for the corporate client
+                    whether Indian or Overseas: We have developed a Private
+                    Settlement procedure for quick result oriented resolution of
+                    bad debt matters. We less prefer to take the cases/matter to
+                    the court, we believe that going court is totally wastage of
+                    time and money both..{" "}
                   </p>
                 </div>
               </div>
@@ -168,12 +181,15 @@ const Services = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      UX/UI Design Strategy
+                      Overseas Debtors Recovery Systems.
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    We provide Debtors collection/recovery services overseas
+                    too. All overseas countries we cover under Technical Debtors
+                    Recovery Systems. IDCI has recovered overseas balance
+                    outstanding payment of exporters & importers from Taiwan,
+                    Chine & Dubai in two months
                   </p>
                 </div>
               </div>
@@ -186,12 +202,14 @@ const Services = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      SEO Optimization
+                      Technical Recovery
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    This is a fast process payment recovery system, which work
+                    on fast modus of operandi. In this process we recover the
+                    long pending payment from the INTENTIONAL DEFAULTERS
+                    corporate clients at pan India in very small duration.
                   </p>
                 </div>
               </div>
@@ -210,14 +228,13 @@ const Services = () => {
                   <span className="sub-title mb-15">
                     Guaranteed Customer Satisfaction
                   </span>
-                  <h2>Ideate, Design And Fuel Business Growth</h2>
+                  <h2>Our Commitment to Customer Satisfaction</h2>
                 </div>
                 <p>
-                  With over 20 years of experience and 850+ employees board,
-                  Iflexion serves medium-sized and large companies globally.
-                  Profound knowledge coupled with business understanding is what
-                  allows us to create unique solutions that power enterprises,
-                  their employees.
+                  At Idci, we prioritize your satisfaction above everything
+                  else. Our commitment to delivering exceptional service and
+                  outstanding results is unwavering. Here's how we ensure
+                  guaranteed customer satisfaction:
                 </p>
                 <div className="row pt-15">
                   <div className="col-sm-6">
@@ -256,11 +273,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="experience-years">
-                  <h4>25 Years Of Experience IT Solutions</h4>
-                  <img
-                    src="assets/images/about/satisfaction-author.png"
-                    alt="Author"
-                  />
+                  <h4>10 Years Of Experience</h4>
                 </div>
               </div>
             </div>

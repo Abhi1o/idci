@@ -7,7 +7,7 @@ import logo from "../../../public/assets/CompanyLogo/COMAsset1.png";
 const Header1 = () => {
   return (
     <header className="main-header header-one menu-white">
-      <div className="header-top-wrap bgc-gray">
+      <div className="header-top-wrap bgc-white">
         <div className="container">
           <div className="header-top">
             <ul>

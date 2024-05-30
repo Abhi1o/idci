@@ -13,10 +13,9 @@ const Contact = () => {
                 <h2>Contact Informations</h2>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus errorsit voluptatem
-                accusantium doloremque laudantium aperiam eaque quae abillo
-                inventore veritatis quasi architecto beatae vitae dicta sunt
-                explicabo
+                Reclaim Your Financial Stability with Our Professional Debt
+                Recovery Services - Contact Us Today for Expert Assistance and
+                Personalized Solutions to Resolve Your Outstanding Debts.
               </p>
             </div>
           </div>
@@ -36,9 +35,7 @@ const Contact = () => {
                   <i className="fal fa-envelope-open" />
                 </div>
                 <h4>Email Us</h4>
-                <a href="mailto:idci.delhi@gmail.com">
-                idci.delhi@gmail.com
-                </a>
+                <a href="mailto:idci.delhi@gmail.com">idci.delhi@gmail.com</a>
                 <br />
                 <a href="https://www.idci.in/">www.idci.in/</a>
               </div>
@@ -55,7 +52,6 @@ const Contact = () => {
                 <span>
                   Phone : <a href="callto:+91 9868423356">+91 9868423356</a>
                 </span>
-                
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -65,7 +61,7 @@ const Contact = () => {
                 </div>
                 <h4>Working Hour</h4>
                 <b>Monday _ Friday,</b>
-                <span>08:00am - 06:00pm</span>
+                <span>10:00am - 05:00pm</span>
               </div>
             </div>
           </div>
@@ -96,7 +92,10 @@ const Contact = () => {
                   <h2>Contact Us</h2>
                 </div>
                 <p>
-                Are you interested in receiving our services? Do you want to know more about how we work and function? Give us a chance to serve you! Let us help you grow and recover from bad debts! Contact us today!
+                  Are you interested in receiving our services? Do you want to
+                  know more about how we work and function? Give us a chance to
+                  serve you! Let us help you grow and recover from bad debts!
+                  Contact us today!
                 </p>
               </div>
             </div>

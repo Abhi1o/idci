@@ -47,7 +47,7 @@ const MobileMenu = () => {
           <ul className="navigation clearfix">
             <li className="">
               
-              <Link href="/" nClick={() => active("home")}>
+              <Link href="/" onClick={() => active("home")}>
                 Home
               </Link>
             </li>
@@ -125,10 +125,10 @@ const DeskTopMenu = () => {
            <Link href="services">services</Link>
           </li>
           <li className="">
-           <Link href="project-grid">client</Link>
+           <Link href="client">client</Link>
           </li>
           <li className="dropdown">
-           <Link href="blog-details">Client Review</Link>
+           <Link href="client-review">Client Review</Link>
           </li>
           <li className="dropdown">
            <Link href="blog">blog</Link>

@@ -8,16 +8,16 @@ import Image from "next/image"
 const DefaultHeader = () => {
   return (
     <header className="main-header header-two">
-      <HeaderTop />
+      {/* <HeaderTop /> */}
       {/*Header-Upper*/}
       <div className="header-upper bg-white">
         <div className="container-fluid clearfix">
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link legacyBehavior href="/index">
+                {/* <Link legacyBehavior href="/index">
                   <Image src={logo} alt="Logo" />
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="nav-outer mx-auto clearfix">

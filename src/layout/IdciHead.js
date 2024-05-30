@@ -12,7 +12,7 @@ const IdciHead = () => {
       />
       {/* Title */}
       <title>
-        idci - IT solutions &amp; Bad Debt Recovery || Home Four
+        idci - IT solutions &amp; Bad Debt Recovery.
       </title>
       {/* Favicon Icon */}
       <link

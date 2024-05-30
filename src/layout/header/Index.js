@@ -4,10 +4,10 @@ import { useEffect } from "react";
 import Header1 from "./Header1";
 // import Header3 from "./Header3";
 // import Header4 from "./Header4";
-const Header = ({ header }) => {
-  // useEffect(() => {
-  //   stickyNav();
-  // }, []);
+const Header = () => {
+  useEffect(() => {
+    stickyNav();
+  }, []);
 
   // switch (header) {
   //   case 1:

@@ -83,3 +83,20 @@ img.mfp-img {
 .active-scroll-top {
   display: inline-block;
 }
+
+.underline{
+  text-decoration:underline;
+}
+.imgshow{
+  z-index: 2;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+.letter-head-img{
+  height: 400px; /* Adjust the height as needed */
+  object-fit: cover; 
+}

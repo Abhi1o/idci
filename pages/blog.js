@@ -21,28 +21,27 @@ const Blog = () => {
                   <div className="content">
                     <div className="blog-meta-two mb-5">
                       <Link legacyBehavior href="/blog">
-                        <a className="tag">Branding</a>
+                        <a className="tag">Recovery</a>
                       </Link>
                     </div>
                     <h4>
-                      <Link legacyBehavior href="blog-details">
-                        Rethinking Server-Timing As A Critical Monitoring Tool
+                      <Link legacyBehavior href="blog">
+                      Legal Action to Recover Debt
                       </Link>
                     </h4>
                     <p>
-                      Our experts help create the right website for acrosse and
-                      devices consideration user promotey
+                    The problem these smaller businesses and private individuals face revolves around the costs involved in taking debt legal advice against the defaulters
                     </p>
                     <div className="blog-meta-two">
                       <a className="author" href="#">
-                        Kenneth S. Denman
+                      Rabi Ahmad
                       </a>
                       <a className="date" href="#">
-                        <i className="far fa-calendar-alt" /> June 26, 2024
+                        <i className="far fa-calendar-alt" /> May 26, 2024
                       </a>
                     </div>
                     <hr />
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/blog">
                       <a className="read-more">
                         Read More <i className="far fa-long-arrow-right" />
                       </a>
@@ -59,29 +58,27 @@ const Blog = () => {
                   <div className="content">
                     <div className="blog-meta-two mb-5">
                       <Link legacyBehavior href="/blog">
-                        <a className="tag">Designing</a>
+                        <a className="tag">Strategies</a>
                       </Link>
                     </div>
                     <h4>
-                      <Link legacyBehavior href="blog-details">
-                        Voice Control Considerations For Visually Hidden Link
-                        Names
+                      <Link legacyBehavior href="blog">
+                      Debt Collection Strategies to Reduce Your Bad Debts
                       </Link>
                     </h4>
                     <p>
-                      Our experts help create the right website for acrosse and
-                      devices consideration user promotey
+                    From understanding your debtor's position to using technology to your advantage, these strategies cover the essentials of efficient debt recovery...
                     </p>
                     <div className="blog-meta-two">
                       <a className="author" href="#">
-                        Kenneth S. Denman
+                      Ameera Bajrai
                       </a>
                       <a className="date" href="#">
-                        <i className="far fa-calendar-alt" /> June 26, 2024
+                        <i className="far fa-calendar-alt" /> March 08, 2024
                       </a>
                     </div>
                     <hr />
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/blog">
                       <a className="read-more">
                         Read More <i className="far fa-long-arrow-right" />
                       </a>
@@ -98,220 +95,34 @@ const Blog = () => {
                   <div className="content">
                     <div className="blog-meta-two mb-5">
                       <Link legacyBehavior href="blog">
-                        <a className="tag">Marketing</a>
+                        <a className="tag">Overseas</a>
                       </Link>
                     </div>
                     <h4>
-                      <Link legacyBehavior href="blog-details">
-                        How To Create Vanilva Script Gantt Adding Task Editing
-                      </Link>
-                    </h4>
-                    <p>
-                      Our experts help create the right website for acrosse and
-                      devices consideration user promotey
-                    </p>
-                    <div className="blog-meta-two">
-                      <a className="author" href="#">
-                        Kenneth S. Denman
-                      </a>
-                      <a className="date" href="#">
-                        <i className="far fa-calendar-alt" /> June 26, 2024
-                      </a>
-                    </div>
-                    <hr />
-                    <Link legacyBehavior href="/blog-details">
-                      <a className="read-more">
-                        Read More <i className="far fa-long-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="blog-standard-item wow fadeInUp delay-0-2s">
-                  <div className="image">
-                    <img
-                      src="assets/images/blog/blog-standard4.jpg"
-                      alt="Blog"
-                    />
-                  </div>
-                  <div className="content">
-                    <div className="blog-meta-two mb-5">
                       <Link legacyBehavior href="blog">
-                        <a className="tag">Development</a>
-                      </Link>
-                    </div>
-                    <h4>
-                      <Link legacyBehavior href="blog-details">
-                        Web Design Done Well Delhtful Visualization Examples
+                      Managing Overseas Aged Debt
                       </Link>
                     </h4>
                     <p>
-                      Our experts help create the right website for acrosse and
-                      devices consideration user promotey
+                    As a business grows, it is inevitable that it will begin partnering with organisations outside its home country.  Collecting debts from clients...
                     </p>
                     <div className="blog-meta-two">
                       <a className="author" href="#">
-                        Kenneth S. Denman
+                      Giles Goodman
                       </a>
                       <a className="date" href="#">
-                        <i className="far fa-calendar-alt" /> June 26, 2024
+                        <i className="far fa-calendar-alt" /> Jan 26, 2024
                       </a>
                     </div>
                     <hr />
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/blog">
                       <a className="read-more">
                         Read More <i className="far fa-long-arrow-right" />
                       </a>
                     </Link>
                   </div>
                 </div>
-                <div className="blog-standard-item wow fadeInUp delay-0-2s">
-                  <div className="image">
-                    <img
-                      src="assets/images/blog/blog-standard5.jpg"
-                      alt="Blog"
-                    />
-                  </div>
-                  <div className="content">
-                    <div className="blog-meta-two mb-5">
-                      <Link legacyBehavior href="/blog">
-                        <a className="tag">Branding</a>
-                      </Link>
-                    </div>
-                    <h4>
-                      <Link legacyBehavior href="blog-details">
-                        DevFest For Ukraine Charity Conference Future Tech
-                      </Link>
-                    </h4>
-                    <p>
-                      Our experts help create the right website for acrosse and
-                      devices consideration user promotey
-                    </p>
-                    <div className="blog-meta-two">
-                      <a className="author" href="#">
-                        Kenneth S. Denman
-                      </a>
-                      <a className="date" href="#">
-                        <i className="far fa-calendar-alt" /> June 26, 2024
-                      </a>
-                    </div>
-                    <hr />
-                    <Link legacyBehavior href="/blog-details">
-                      <a className="read-more">
-                        Read More <i className="far fa-long-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="blog-standard-item wow fadeInUp delay-0-2s">
-                  <div className="image">
-                    <img
-                      src="assets/images/blog/blog-standard6.jpg"
-                      alt="Blog"
-                    />
-                  </div>
-                  <div className="content">
-                    <div className="blog-meta-two mb-5">
-                      <Link legacyBehavior href="blog">
-                        <a className="tag">UI/UX strategy</a>
-                      </Link>
-                    </div>
-                    <h4>
-                      <Link legacyBehavior href="blog-details">
-                        Smashing Podcast Episode 47 With Soueidan Accessibe
-                        Matter?
-                      </Link>
-                    </h4>
-                    <p>
-                      Our experts help create the right website for acrosse and
-                      devices consideration user promotey
-                    </p>
-                    <div className="blog-meta-two">
-                      <a className="author" href="#">
-                        Kenneth S. Denman
-                      </a>
-                      <a className="date" href="#">
-                        <i className="far fa-calendar-alt" /> June 26, 2024
-                      </a>
-                    </div>
-                    <hr />
-                    <Link legacyBehavior href="/blog-details">
-                      <a className="read-more">
-                        Read More <i className="far fa-long-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="blog-standard-item wow fadeInUp delay-0-2s">
-                  <div className="image">
-                    <img
-                      src="assets/images/blog/blog-standard7.jpg"
-                      alt="Blog"
-                    />
-                  </div>
-                  <div className="content">
-                    <div className="blog-meta-two mb-5">
-                      <Link legacyBehavior href="blog">
-                        <a className="tag">Mobile app</a>
-                      </Link>
-                    </div>
-                    <h4>
-                      <Link legacyBehavior href="blog-details">
-                        DevFest For Ukraine Charity Conference Future Tech
-                      </Link>
-                    </h4>
-                    <p>
-                      Our experts help create the right website for acrosse and
-                      devices consideration user promotey
-                    </p>
-                    <div className="blog-meta-two">
-                      <a className="author" href="#">
-                        Kenneth S. Denman
-                      </a>
-                      <a className="date" href="#">
-                        <i className="far fa-calendar-alt" /> June 26, 2024
-                      </a>
-                    </div>
-                    <hr />
-                    <Link legacyBehavior href="/blog-details">
-                      <a className="read-more">
-                        Read More <i className="far fa-long-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                <ul className="pagination flex-wrap wow fadeInUp delay-0-2s">
-                  <li className="page-item disabled">
-                    <span className="page-link">
-                      <i className="fas fa-angle-left" />
-                    </span>
-                  </li>
-                  <li className="page-item active">
-                    <span className="page-link">
-                      01
-                      <span className="sr-only">(current)</span>
-                    </span>
-                  </li>
-                  <li className="page-item">
-                    <a className="page-link" href="#">
-                      02
-                    </a>
-                  </li>
-                  <li className="page-item">
-                    <a className="page-link" href="#">
-                      03
-                    </a>
-                  </li>
-                  <li className="page-item">
-                    <a className="page-link" href="#">
-                      04
-                    </a>
-                  </li>
-                  <li className="page-item">
-                    <a className="page-link" href="#">
-                      <i className="fas fa-angle-right" />
-                    </a>
-                  </li>
-                </ul>
+               
               </div>
             </div>
             <div className="col-lg-4 col-md-7 col-sm-9">
@@ -386,13 +197,13 @@ const Blog = () => {
                       </div>
                       <div className="content">
                         <h5>
-                          <Link legacyBehavior href="blog-details">
-                            Build Group Chat App With Vanilla JS Twilio Node
+                          <Link legacyBehavior href="blog">
+                          Navigating the Complexities of International Debt Collection
                           </Link>
                         </h5>
                         <span className="date">
                           <i className="far fa-calendar-alt" />
-                          <a href="#">25 June 2024</a>
+                          <a href="#">25 May 2024</a>
                         </span>
                       </div>
                     </li>
@@ -402,13 +213,13 @@ const Blog = () => {
                       </div>
                       <div className="content">
                         <h5>
-                          <Link legacyBehavior href="blog-details">
-                            Expand Your Horiz Desktop Wallpapers Edition See
+                          <Link legacyBehavior href="blog">
+                          The Role of Technology in Modern Debt Recovery Strategies
                           </Link>
                         </h5>
                         <span className="date">
                           <i className="far fa-calendar-alt" />
-                          <a href="#">25 June 2024</a>
+                          <a href="#">25 March 2024</a>
                         </span>
                       </div>
                     </li>
@@ -418,38 +229,20 @@ const Blog = () => {
                       </div>
                       <div className="content">
                         <h5>
-                          <Link legacyBehavior href="blog-details">
-                            Manage Accessible Design System With Colorntes
+                          <Link legacyBehavior href="blog">
+                          Overcoming Challenges in Cross-Border Debt Recovery
                           </Link>
                         </h5>
                         <span className="date">
                           <i className="far fa-calendar-alt" />
-                          <a href="#">25 June 2024</a>
+                          <a href="#">25 Feb 2024</a>
                         </span>
                       </div>
                     </li>
                   </ul>
                 </div>
-                <div className="widget widget-cta wow fadeInUp delay-0-2s">
-                  <h4>Build Awesome Website/Template</h4>
-                  <Link legacyBehavior href="/contact">
-                    <a className="theme-btn style-two">
-                      Contact Us <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
-                  <img src="assets/images/widgets/cta.png" alt="CTA" />
-                  <img
-                    className="cta-bg-line"
-                    src="assets/images/widgets/cta-bg-line.png"
-                    alt="CTA bg line"
-                  />
-                  <img
-                    className="cta-bg-dots"
-                    src="assets/images/widgets/cta-bg-dots.png"
-                    alt="CTA bg Dots"
-                  />
-                </div>
-                <div className="widget widget-tag-cloud wow fadeInUp delay-0-2s">
+               
+                {/* <div className="widget widget-tag-cloud wow fadeInUp delay-0-2s">
                   <h4 className="widget-title">Popular Tags</h4>
                   <div className="tag-coulds">
                     <Link legacyBehavior href="blog">
@@ -480,7 +273,7 @@ const Blog = () => {
                       wordpress
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
