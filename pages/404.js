@@ -7,17 +7,7 @@ const E404 = () => {
       <section className="error-page-area py-80">
         <div className="container">
           <div className="error-page-content text-center">
-            <div className="logo w-75 mb-75 rmb-35 mx-auto wow fadeInUp delay-0-2s">
-              <Link legacyBehavior href="/">
-                <a>
-                  <img
-                    src="assets/images/logos/logo-big.png"
-                    alt="Logo"
-                    title="Logo"
-                  />
-                </a>
-              </Link>
-            </div>
+            
             <div className="image mb-80 rmb-55 wow fadeInUp delay-0-4s">
               <img src="assets/images/background/404.png" alt="Error" />
             </div>

@@ -212,6 +212,21 @@ input[type=checkbox], input[type=radio] {
   height: auto;
   width: auto; }
 
+.swiperimage-hero{
+    flex: 1; display:flex;
+    flex-direction: row;
+    align-items:center
+  }
+  .slick-list{
+    display:flex;
+    flex-direction: row;
+    align-items:center
+  }
+  .marque-images{
+    max-width:180px;
+    max-height: 150px;
+    margin-left:40px;
+  }
 /*******************************************************/
 /******************  ## Common Classes *****************/
 /*******************************************************/
@@ -222,6 +237,7 @@ input[type=checkbox], input[type=radio] {
   margin: 0 auto;
   overflow: hidden;
   min-width: 300px; }
+  
 
 @media only screen and (min-width: 1200px) {
   .container {
@@ -5353,7 +5369,7 @@ h6, .h6 {
 /****************** ## Partners Area ******************/
 /*******************************************************/
 .partner-item {
-  height: 95px;
+  /* height: 95px; */
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -5370,6 +5386,13 @@ h6, .h6 {
   margin-bottom: 30px;
 
   /* background: var(--lighter-color);  */
+}
+.partner-item-image{
+
+  max-width:150px;
+  max-height:100px;
+  text-align: center
+
 }
   @media only screen and (max-width: 375px) {
     .partner-item {

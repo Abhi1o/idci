@@ -2,6 +2,7 @@ import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
 import { useState } from "react";
+import Marquee from "react-fast-Marquee";
 
 const ProjectGrid = () => {
   const [showMoreGallery, setShowMoreGallery] = useState(false);
@@ -67,8 +68,48 @@ const ProjectGrid = () => {
           {/* Partners Area start */}
           <div className="partners-area-three text-center rel z-1 pb-110 rpb-80">
             <div className="container">
-              <hr className="mb-75" />
-              <div className="row row-cols-xl-4 row-cols-lg-4 row-cols-md-2 row-cols-2 justify-content-center">
+              <hr className="mb-90" />
+              <Marquee direction="left" gradientColor="white" gradient="true">
+                {companyImages.map((image, index) => (
+                  <img
+                    src={image}
+                    alt="company image"
+                    className="marque-images"
+                  />
+                ))}
+              </Marquee>
+              <p className="mb-120" />
+              <Marquee direction="right" gradientColor="white" gradient="true" >
+                {companyImages.slice(6).map((image, index) => (
+                  <img
+                    src={image}
+                    alt="company image"
+                    className="marque-images"
+                  />
+                ))}
+              </Marquee>
+              <p className="mb-120" />
+              <Marquee direction="left" gradientColor="white" gradient="true" >
+                {companyImages.slice(12).map((image, index) => (
+                  <img
+                    src={image}
+                    alt="company image"
+                    className="marque-images"
+                  />
+                ))}
+              </Marquee>
+              <p className="mb-120" />
+              <Marquee direction="right" gradientColor="white" gradient="true" >
+                {(companyImages.slice(17)).map((image, index) => (
+                  <img
+                    src={image}
+                    alt="company image"
+                    className="marque-images"
+                  />
+                ))}
+              </Marquee>
+
+              {/* <div className="row row-cols-xl-4 row-cols-lg-4 row-cols-md-2 row-cols-2 justify-content-center">
                 {companyImages.slice(0, showMoreGallery ? companyImages.length : 5).map((image, index) => (
                   <div className="col" key={index}>
                     <div className="legacyBehavior" >
@@ -78,11 +119,11 @@ const ProjectGrid = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
               <hr className="mt-45" />
             </div>
           </div>
-          <div className="project-more-btn text-center">
+          {/* <div className="project-more-btn text-center">
             <button
               className="theme-btn style-two wow fadeInUp delay-0-2s"
               onClick={toggleShowMoreGallery}
@@ -90,7 +131,7 @@ const ProjectGrid = () => {
               {showMoreGallery ? "View Less Gallery" : "View More Gallery"}{" "}
               <i className={`fas ${showMoreGallery ? "fa-long-arrow-left" : "fa-long-arrow-right"}`} />
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
     </Layout>

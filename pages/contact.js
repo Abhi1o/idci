@@ -26,7 +26,7 @@ const Contact = () => {
                   <i className="fal fa-map-marker-alt" />
                 </div>
                 <h4>Locations</h4>
-                <span>553 Main Street, 2nd - Block, New York 32500</span>
+                <span>Vishwash Park, Uttam Nagar, New Delhi - 110059</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">

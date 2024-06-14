@@ -86,6 +86,107 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* special offers */}
+      <section className="services-area-three overflow-hidden pt-10 rpt-100 pb-100 rpb-70 rel z-1">
+        <div className="container">
+          <div className="row gap-100 align-items-center">
+            <div className="col-lg-5">
+              <div className="services-content-three mb-30 rmb-65 wow fadeInUp delay-0-2s">
+                <div className="section-title mb-30">
+                  <span className="sub-title mb-15">Special Services</span>
+                  <h2>We Provide Special Services to Growth you Business</h2>
+                </div>
+                <p>
+                Our company specializes in the dedicated recovery of debts for software companies, pharmaceutical companies, and embassies. We understand the unique challenges each sector faces and are committed to ensuring financial stability through efficient debt recovery.
+                </p>
+                <ul className="list-style-one pt-5">
+                  <li>Software company</li>
+                  <li>Pharmaceutical company</li>
+                  <li>All Embassy</li>
+                </ul>
+                <Link legacyBehavior href="/services">
+                  <a className="theme-btn mt-45">
+                    View All Services <i className="fas fa-long-arrow-right" />
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-7">
+              <div className="row">
+                <div className="col-sm-6">
+                  <div className="feature-item style-two mt-25 wow fadeInUp delay-0-2s">
+                    <div className="icon">
+                      <i className="flaticon-trust" />
+                    </div>
+                    <Link legacyBehavior href="/services">
+                      <h4> Software company</h4>
+                    </Link>
+                    <p>
+                    we tackle issues like invoice disputes, complex licensing agreements, and client financial difficulties.  </p>
+                    <Link legacyBehavior href="/services">
+                      <a className="more-btn">
+                        <i className="far fa-angle-right" />
+                      </a>
+                    </Link>
+                  </div>
+                  <div className="feature-item style-two wow fadeInUp delay-0-2s">
+                    <div className="icon">
+                      <i className="flaticon-social-media" />
+                    </div>
+                    <Link legacyBehavior href="/services">
+                      <h4>Pharmaceutical company</h4>
+                    </Link>
+                    <p>
+                    we address regulatory compliance issues, supply chain complexities, and insurance reimbursement delays.</p>
+                    <Link legacyBehavior href="/services">
+                      <a className="more-btn">
+                        <i className="far fa-angle-right" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="col-sm-6">
+                  <div className="feature-item style-two wow fadeInDown delay-0-2s">
+                    <div className="icon">
+                      <i className="flaticon-technical-support" />
+                    </div>
+                    <Link legacyBehavior href="/services">
+                      <h4>All Embassy</h4>
+                    </Link>
+                    <p>
+                    we navigate the complexities of currency fluctuations, bureaucratic delays, and cross-border transactions. </p>
+                    <Link legacyBehavior href="/services">
+                      <a className="more-btn">
+                        <i className="far fa-angle-right" />
+                      </a>
+                    </Link>
+                  </div>
+                  {/* <div className="feature-item style-two mt-25 wow fadeInDown delay-0-2s">
+                    <div className="icon">
+                      <i className="flaticon-brainstorming" />
+                    </div>
+                    <Link legacyBehavior href="/services">
+                      <h4>IT Consulting</h4>
+                    </Link>
+                    <p>
+                      With over 20 year of experience 850+ employees flexion
+                    </p>
+                    <Link legacyBehavior href="/services">
+                      <a className="more-btn">
+                        <i className="far fa-angle-right" />
+                      </a>
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="servcies-bg-shape">
+          <img src="assets/images/shapes/services-bg-shape.png" alt="Shape" />
+        </div>
+      </section>
       {/* Partners Area end */}
       {/* About Area start */}
       <section className="about-area pb-130 rpb-100 rel z-1">
@@ -105,11 +206,11 @@ const Index = () => {
                   whether Indian or Overseas.
                 </p>
                 <div className="about-btns mb-45">
-                  <Link legacyBehavior href="/about">
+                  {/* <Link legacyBehavior href="#">
                     <a className="theme-btn mt-15">
                       Learn More <i className="fas fa-long-arrow-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                   <div className="hotline mt-15">
                     <i className="fas fa-phone" />
                     <div className="content">
@@ -129,7 +230,7 @@ const Index = () => {
                         />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           Motto
                         </Link>
                       </h4>
@@ -149,7 +250,7 @@ const Index = () => {
                         />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           What we do
                         </Link>
                       </h4>
@@ -168,7 +269,7 @@ const Index = () => {
                         />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           Achievement
                         </Link>
                       </h4>
@@ -184,7 +285,7 @@ const Index = () => {
                         />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           International
                         </Link>
                       </h4>
@@ -200,7 +301,7 @@ const Index = () => {
                         />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           Experience
                         </Link>
                       </h4>
@@ -219,7 +320,7 @@ const Index = () => {
                         />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           B2B
                         </Link>
                       </h4>
@@ -357,6 +458,10 @@ const Index = () => {
             alt="shape"
           />
         </div> */}
+
+        {/* special services */}
+
+        
       </section>
       {/* Project Area end */}
       {/* Services Area start */}
@@ -379,7 +484,7 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Legal Recovery
                     </Link>
                   </h4>
@@ -400,7 +505,7 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                     Court Settlement
                     </Link>
                   </h4>
@@ -417,7 +522,7 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Private Settlement
                     </Link>
                   </h4>
@@ -439,7 +544,7 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Overseas Debtors Recovery Systems.
                     </Link>
                   </h4>
@@ -460,7 +565,7 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Technical Recovery
                     </Link>
                   </h4>
@@ -671,11 +776,11 @@ const Index = () => {
                     <span className="sub-title mb-15">Company Statistics</span>
                     <h2>Learn About Our Company Statistics</h2>
                   </div>
-                  <Link legacyBehavior href="/about">
+                  {/* <Link legacyBehavior href="/about">
                     <a className="read-more">
                       Learn More <i className="fas fa-long-arrow-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-xl-7 col-lg-6">
@@ -952,11 +1057,11 @@ const Index = () => {
                     face revolves around the costs involved in taking debt legal
                     advice...
                   </p>
-                  <Link legacyBehavior href="/blog">
+                  {/* <Link legacyBehavior href="/blog">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -994,11 +1099,11 @@ const Index = () => {
                     technology to your advantage, these strategies cover the
                     essentials of efficient...
                   </p>
-                  <Link legacyBehavior href="/blog">
+                  {/* <Link legacyBehavior href="/blog">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -1033,11 +1138,11 @@ const Index = () => {
                     partnering with organizations outside its home country.
                     Collecting debts from clients...
                   </p>
-                  <Link legacyBehavior href="/blog-details">
+                  {/* <Link legacyBehavior href="/blog-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

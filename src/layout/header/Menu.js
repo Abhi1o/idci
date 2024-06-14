@@ -60,9 +60,9 @@ const MobileMenu = () => {
           <li className="dropdown">
            <Link href="client-review">Client Review</Link>
           </li>
-          <li className="dropdown">
+          {/* <li className="dropdown">
            <Link href="blog">blog</Link>
-          </li>
+          </li> */}
           <li className="dropdown">
            <Link href="contact">Contact Us</Link>
           </li>
@@ -128,9 +128,9 @@ const DeskTopMenu = () => {
           <li className="dropdown">
            <Link href="client-review">Client Review</Link>
           </li>
-          <li className="dropdown">
+          {/* <li className="dropdown">
            <Link href="blog">blog</Link>
-          </li>
+          </li> */}
           <li className="dropdown">
            <Link href="contact">Contact Us</Link>
           </li>

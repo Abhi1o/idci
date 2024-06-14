@@ -116,7 +116,7 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Legal Recovery
                     </Link>
                   </h4>
@@ -137,7 +137,7 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Court Settlement
                     </Link>
                   </h4>
@@ -158,7 +158,7 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Private Settlement
                     </Link>
                   </h4>
@@ -180,7 +180,7 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Overseas Debtors Recovery Systems.
                     </Link>
                   </h4>
@@ -201,7 +201,7 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="#">
                       Technical Recovery
                     </Link>
                   </h4>
@@ -243,7 +243,7 @@ const Services = () => {
                         <i className="flaticon-trust" />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           Best Trusted Partner
                         </Link>
                       </h4>
@@ -255,7 +255,7 @@ const Services = () => {
                         <i className="flaticon-technical-support" />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           24/7 Technical Support
                         </Link>
                       </h4>

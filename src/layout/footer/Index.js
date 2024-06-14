@@ -47,11 +47,11 @@ const Footer = () => {
               <p>
               We aim to provide the best of our collection and recovery services to those clients who are skilled
               </p>
-              <Link legacyBehavior href="/about">
+              {/* <Link legacyBehavior href="/about">
                 <a className="read-more">
                   Learn More Us <i className="fas fa-long-arrow-right" />
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="col-xl-3 col-sm-6 order-xl-2">
@@ -122,12 +122,12 @@ const Footer = () => {
                         href="faqs"
                       >{`Asked Questions`}</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link
                         legacyBehavior
                         href="blog"
                       >{`Blog & News`}</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link legacyBehavior href="contact">{`Contact us`}</Link>
                     </li>
@@ -139,27 +139,27 @@ const Footer = () => {
                   <h4 className="footer-title">Our Services</h4>
                   <ul className="list-style-two">
                     <li>
-                      <Link legacyBehavior href="service-details">
+                      <Link legacyBehavior href="services">
                         <a>Legal Recovery</a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="service-details">
+                      <Link legacyBehavior href="services">
                         <a>Technical Recovery</a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="service-details">
+                      <Link legacyBehavior href="services">
                         <a>Private Settlement</a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="service-details">
+                      <Link legacyBehavior href="services">
                         <a>Overseas Cases</a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="service-details">
+                      <Link legacyBehavior href="services">
                         <a>Arbitration</a>
                       </Link>
                     </li>
@@ -195,11 +195,11 @@ const Footer = () => {
                         <a>Give Review</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link legacyBehavior href="blog">
                         <a>News</a>
                       </Link>
-                    </li>
+                    </li> */}
                     {/* <li>
                       <Link legacyBehavior href="contact">
                         <a>Password Protected</a>

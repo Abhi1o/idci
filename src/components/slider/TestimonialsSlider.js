@@ -358,48 +358,48 @@ const TestimonialImageSlider1 = () => {
     ],
   };
   return (
-    <Fragment>
-      <Slider {...slider} className="">
+    <Fragment className="swiperimage-hero">
+      <Slider {...slider} className="swiperimage-hero">
         {/* Add more image elements as needed */}
 
-        <div className="">
+        <div className="col align-items-center">
           <a className="partner-item wow fadeInUp delay-0-3s">
-            <img src="assets/CompanyLogo/1ab.png" alt="Partner" />
+            <img src="assets/CompanyLogo/1ab.png" alt="Partner" className="partner-item-image"/>
           </a>
         </div>
-        <div className="col">
+        <div className="col align-items-center">
           <a className="partner-item wow fadeInUp delay-0-5s">
-            <img src="assets/CompanyLogo/gyan.png" alt="Partner" />
+            <img src="assets/CompanyLogo/gyan.png" alt="Partner" className="partner-item-image"/>
           </a>
         </div>
-        <div className="col">
+        <div className="col align-items-center">
           <a className="partner-item wow fadeInUp delay-0-6s">
-            <img src="assets/CompanyLogo/fuji.png" alt="Partner" />
+            <img src="assets/CompanyLogo/fuji.png" alt="Partner" className="partner-item-image"/>
           </a>
         </div>
-        <div className="col">
+        <div className="col align-items-center">
           <a className="partner-item wow fadeInUp delay-0-7s">
-            <img src="assets/ClientsLogo/EON.png" alt="Partner" />
+            <img src="assets/ClientsLogo/EON.png" alt="Partner" className="partner-item-image"/>
           </a>
         </div>
-        <div className="col">
+        <div className="col align-items-center">
           <a className="partner-item wow fadeInUp delay-0-7s">
             <img
               src="assets/CompanyLogo/PLACEHOLDER_image1.jpg"
-              alt="Partner"
+              alt="Partner" className="partner-item-image"
             />
           </a>
         </div>
-        <div className="col">
+        {/* <div className="col">
           <a className="partner-item wow fadeInUp delay-0-7s">
-            <img src="assets/CompanyLogo/skylark.jpg" alt="Partner" />
+            <img src="assets/CompanyLogo/skylark.jpg" alt="Partner" className="partner-item-image"/>
           </a>
-        </div>
-        <div className="col">
+        </div> */}
+        <div className="col align-items-center">
           <a className="partner-item wow fadeInUp delay-0-7s">
             <img
               src="assets/CompanyLogo/H R Exports Pvt Ltd.png"
-              alt="Partner"
+              alt="Partner" className="partner-item-image"
             />
           </a>
         </div>
@@ -407,7 +407,7 @@ const TestimonialImageSlider1 = () => {
           <a className="partner-item wow fadeInUp delay-0-7s">
             <img
               src="assets/CompanyLogo/Vands Engineering Solution.jpg"
-              alt="Partner"
+              alt="Partner" className="partner-item-image"
             />
           </a>
         </div>
@@ -415,7 +415,7 @@ const TestimonialImageSlider1 = () => {
           <a className="partner-item wow fadeInUp delay-0-7s">
             <img
               src="assets/CompanyLogo/Super Touch Paints Ltd.png"
-              alt="Partner"
+              alt="Partner" className="partner-item-image"
             />
           </a>
         </div>
@@ -423,31 +423,31 @@ const TestimonialImageSlider1 = () => {
           <a className="partner-item wow fadeInUp delay-0-7s">
             <img
               src="assets/CompanyLogo/Arihant Oil & Chemicals.jpg"
-              alt="Partner"
+              alt="Partner" className="partner-item-image"
             />
           </a>
         </div>
-        <div className="col">
+        {/* <div className="col">
           <a className="partner-item wow fadeInUp delay-0-7s">
-            <img src="assets/CompanyLogo/Brinks Surgical.png" alt="Partner" />
+            <img src="assets/CompanyLogo/Brinks Surgical.png" alt="Partner"  className="partner-item-image"/>
           </a>
-        </div>
+        </div> */}
         <div className="col">
           <a className="partner-item wow fadeInUp delay-0-7s">
             <img
               src="assets/CompanyLogo/Competent Pneumatic Pvt Ltd.png"
-              alt="Partner"
+              alt="Partner" className="partner-item-image"
             />
           </a>
         </div>
         <div className="col">
           <a className="partner-item wow fadeInUp delay-0-7s">
-            <img src="assets/CompanyLogo/Aditya Overseas.gif" alt="Partner" />
+            <img src="assets/CompanyLogo/Aditya Overseas.gif" alt="Partner" className="partner-item-image"/>
           </a>
         </div>
         <div className="col">
           <a className="partner-item wow fadeInUp delay-0-7s">
-            <img src="assets/CompanyLogo/nath3.jpg" alt="Partner" />
+            <img src="assets/CompanyLogo/nath3.jpg" alt="Partner" className="partner-item-image"/>
           </a>
         </div>
       </Slider>
