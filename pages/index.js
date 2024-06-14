@@ -95,11 +95,10 @@ const Index = () => {
               <div className="services-content-three mb-30 rmb-65 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-30">
                   <span className="sub-title mb-15">Special Services</span>
-                  <h2>We Provide Special Services to Growth you Business</h2>
+                  <h2>Specialized Domain Centric, Custom Tailored Debt Recovery Services for Each Sector</h2>
                 </div>
                 <p>
-                Our company specializes in the dedicated recovery of debts for software companies, pharmaceutical companies, and embassies. We understand the unique challenges each sector faces and are committed to ensuring financial stability through efficient debt recovery.
-                </p>
+                Our company excels in providing specialized, domain-centric debt recovery services meticulously tailored to meet the unique needs of software companies, pharmaceutical companies, and embassies. With a deep understanding of industry-specific issues, our expert team implements targeted strategies to recover debts swiftly, helping our clients maintain seamless operations and financial health.</p>
                 <ul className="list-style-one pt-5">
                   <li>Software company</li>
                   <li>Pharmaceutical company</li>
@@ -120,7 +119,7 @@ const Index = () => {
                       <i className="flaticon-trust" />
                     </div>
                     <Link legacyBehavior href="/services">
-                      <h4> Software company</h4>
+                      <h4> Software specific services</h4>
                     </Link>
                     <p>
                     we tackle issues like invoice disputes, complex licensing agreements, and client financial difficulties.  </p>
@@ -135,7 +134,7 @@ const Index = () => {
                       <i className="flaticon-social-media" />
                     </div>
                     <Link legacyBehavior href="/services">
-                      <h4>Pharmaceutical company</h4>
+                      <h4>Pharma Specific Services</h4>
                     </Link>
                     <p>
                     we address regulatory compliance issues, supply chain complexities, and insurance reimbursement delays.</p>
@@ -152,7 +151,7 @@ const Index = () => {
                       <i className="flaticon-technical-support" />
                     </div>
                     <Link legacyBehavior href="/services">
-                      <h4>All Embassy</h4>
+                      <h4>Embassy Specific Services</h4>
                     </Link>
                     <p>
                     we navigate the complexities of currency fluctuations, bureaucratic delays, and cross-border transactions. </p>
