@@ -2,7 +2,7 @@ import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
 import { useState } from "react";
-import Marquee from "react-fast-Marquee";
+import Marquee from "react-fast-marquee";
 
 const ProjectGrid = () => {
   const [showMoreGallery, setShowMoreGallery] = useState(false);
