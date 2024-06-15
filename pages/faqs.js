@@ -2,7 +2,11 @@ import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import JeenaAccordion from "@/src/components/JeenaAccordion";
 import { Nav, Tab } from "react-bootstrap";
+import { useRef } from "react";
+
 const Faq = () => {
+  const accordionRef = useRef(null);
+
   return (
     <Layout>
       <PageBanner pageName={"FAQs"} />
@@ -13,99 +17,10 @@ const Faq = () => {
             <h2>Frequently Asked Questions</h2>
           </div>
           <Tab.Container defaultActiveKey={"faq-tab1"}>
-            {/* <Nav as="ul" className="nav tab-style-one mb-35">
-              <li className="nav-item">
-                <Nav.Link
-                  as="a"
-                  className="nav-link"
-                  data-bs-toggle="tab"
-                  href="#faq-tab1"
-                  eventKey="faq-tab1"
-                >
-                  General
-                </Nav.Link>
-              </li>
-              <li className="nav-item">
-                <Nav.Link
-                  as="a"
-                  className="nav-link"
-                  data-bs-toggle="tab"
-                  href="#faq-tab2"
-                  eventKey="faq-tab2"
-                >
-                  IT Consulting
-                </Nav.Link>
-              </li>
-              <li className="nav-item">
-                <Nav.Link
-                  as="a"
-                  className="nav-link"
-                  data-bs-toggle="tab"
-                  href="#faq-tab3"
-                  eventKey="faq-tab3"
-                >
-                  Package
-                </Nav.Link>
-              </li>
-              <li className="nav-item">
-                <Nav.Link
-                  as="a"
-                  className="nav-link"
-                  data-bs-toggle="tab"
-                  href="#faq-tab4"
-                  eventKey="faq-tab4"
-                >
-                  Services
-                </Nav.Link>
-              </li>
-              <li className="nav-item">
-                <Nav.Link
-                  as="a"
-                  className="nav-link"
-                  data-bs-toggle="tab"
-                  href="#faq-tab5"
-                  eventKey="faq-tab5"
-                >
-                  Privacy
-                </Nav.Link>
-              </li>
-              <li className="nav-item">
-                <Nav.Link
-                  as="a"
-                  className="nav-link"
-                  data-bs-toggle="tab"
-                  href="#faq-tab6"
-                  eventKey="faq-tab6"
-                >
-                  Customer
-                </Nav.Link>
-              </li>
-              <li className="nav-item">
-                <Nav.Link
-                  as="a"
-                  className="nav-link"
-                  data-bs-toggle="tab"
-                  href="#faq-tab7"
-                  eventKey="faq-tab7"
-                >
-                  Shop
-                </Nav.Link>
-              </li>
-              <li className="nav-item">
-                <Nav.Link
-                  as="a"
-                  className="nav-link"
-                  data-bs-toggle="tab"
-                  href="#faq-tab8"
-                  eventKey="faq-tab8"
-                >
-                  Payments
-                </Nav.Link>
-              </li>
-            </Nav> */}
             <Tab.Content
               className="tab-content faq-accordion style-three"
               id="faq-accordion"
+              ref={accordionRef}
             >
               <Tab.Pane className="tab-pane fade" eventKey="faq-tab1">
                 <JeenaAccordion
@@ -113,13 +28,10 @@ const Faq = () => {
                   defaultActive={11}
                 />
               </Tab.Pane>
-              
             </Tab.Content>
           </Tab.Container>
         </div>
       </section>
-      {/* FAQs Area end */}
-      {/* Contact Form Section Start */}
       <section className="contact-form-area py-130 rpy-100">
         <div className="container">
           <div className="row align-items-center">
@@ -129,7 +41,6 @@ const Faq = () => {
                   <h3>Get In Touch With Us</h3>
                 </div>
                 <form
-                  // onSubmit={(e) => e.preventDefault()}
                   className="form-style-one"
                   action="https://formspree.io/f/xnqeykwz"
                   name="contact-form"
@@ -212,4 +123,5 @@ const Faq = () => {
     </Layout>
   );
 };
+
 export default Faq;

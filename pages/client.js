@@ -1,7 +1,7 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
-import { useState } from "react";
+import { useState,useRef } from "react";
 import Marquee from "react-fast-marquee";
 
 const ProjectGrid = () => {

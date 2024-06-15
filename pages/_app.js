@@ -1,4 +1,4 @@
-import IdciHead from "@/src/layout/IdciHead";
+// import IdciHead from "@/src/layout/IdciHead";
 import Preloader from "@/src/layout/Preloader";
 import "@/styles/globals.css";
 import Head from "next/head";

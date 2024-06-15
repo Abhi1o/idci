@@ -2,7 +2,7 @@ import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
 import ReviewsCards from "@/src/components/slider/ReviewCards";
-
+import { useRef } from "react";
 const BlogDetails = () => {
   const clientReviews = [
     {
@@ -27,7 +27,7 @@ const BlogDetails = () => {
     // Add more client reviews as needed
   ];
   
-  
+  const reviewRef = useRef(null);
 
   return (
     <Layout>
@@ -39,7 +39,7 @@ const BlogDetails = () => {
         <div className="row justify-content-center ">
             {clientReviews.map((review, index) => (
               <div className="col-md-6 col-lg-4 pb-90" key={index}>
-                <div className="client-review-card text-center mb-4 legacyBehavior h-auto">
+                <div className="client-review-card text-center mb-4 legacyBehavior h-auto" ref={reviewRef}>
                   {/* PDF Letterhead */}
                   
                   <a href={review.pdfUrl} tabIndex={-1} className={`partner-item-two wow fadeInUp  mfp-iframe delay-0-${index + 3}s `}>
