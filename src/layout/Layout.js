@@ -5,7 +5,7 @@ import { animation } from "../utils";
 import Footer from "./footer/Index";
 import Header from "./header/Index";
 import ScrollTopButton from "./ScrollTopButton";
-const Layout = ({ children, header }) => {
+function Layout({ children, header }) {
   useEffect(() => {
     animation();
   }, []);
@@ -27,5 +27,5 @@ const Layout = ({ children, header }) => {
       </div>
     </Fragment>
   );
-};
+}
 export default Layout;

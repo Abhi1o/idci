@@ -16,7 +16,7 @@ const ProjectGrid = () => {
     "assets/ClientsLogo/CIS.png",
     "assets/ClientsLogo/RD Dutta & Co. Pvt Ltd.jpeg",
     "assets/ClientsLogo/HTHC.png",
-    "assets/ClientsLogo//Teslek.png",
+    "assets/ClientsLogo/Teslek.png",
     "assets/ClientsLogo/A9HR.png",
     "assets/ClientsLogo/Hillman.png",
     "assets/ClientsLogo/Raj.png",
@@ -48,6 +48,7 @@ const ProjectGrid = () => {
   const toggleShowMoreGallery = () => {
     setShowMoreGallery(!showMoreGallery);
   };
+
   return (
     <Layout>
       <PageBanner pageName={"Clients"} />
@@ -72,6 +73,7 @@ const ProjectGrid = () => {
               <Marquee direction="left" gradientColor="white" gradient="true">
                 {companyImages.map((image, index) => (
                   <img
+                    key={`image-left-${index}`}  // Add unique key here
                     src={image}
                     alt="company image"
                     className="marque-images"
@@ -79,9 +81,10 @@ const ProjectGrid = () => {
                 ))}
               </Marquee>
               <p className="mb-120" />
-              <Marquee direction="right" gradientColor="white" gradient="true" >
+              <Marquee direction="right" gradientColor="white" gradient="true">
                 {companyImages.slice(6).map((image, index) => (
                   <img
+                    key={`image-right-${index}`}  // Add unique key here
                     src={image}
                     alt="company image"
                     className="marque-images"
@@ -89,9 +92,10 @@ const ProjectGrid = () => {
                 ))}
               </Marquee>
               <p className="mb-120" />
-              <Marquee direction="left" gradientColor="white" gradient="true" >
+              <Marquee direction="left" gradientColor="white" gradient="true">
                 {companyImages.slice(12).map((image, index) => (
                   <img
+                    key={`image-left-2-${index}`}  // Add unique key here
                     src={image}
                     alt="company image"
                     className="marque-images"
@@ -99,9 +103,10 @@ const ProjectGrid = () => {
                 ))}
               </Marquee>
               <p className="mb-120" />
-              <Marquee direction="right" gradientColor="white" gradient="true" >
-                {(companyImages.slice(17)).map((image, index) => (
+              <Marquee direction="right" gradientColor="white" gradient="true">
+                {companyImages.slice(1).map((image, index) => (
                   <img
+                    key={`image-right-2-${index}`}  // Add unique key here
                     src={image}
                     alt="company image"
                     className="marque-images"
@@ -137,4 +142,5 @@ const ProjectGrid = () => {
     </Layout>
   );
 };
+
 export default ProjectGrid;

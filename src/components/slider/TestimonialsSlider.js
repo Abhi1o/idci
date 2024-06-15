@@ -171,6 +171,7 @@ const TestimonialsSlider2 = () => {
     focusOnSelect: true,
     autoplay: false,
     autoplaySpeed: 2100,
+    
     responsive: [
       {
         breakpoint: 480,
@@ -310,33 +311,11 @@ const TestimonialsSlider2 = () => {
 export { TestimonialsSlider2 };
 
 const TestimonialImageSlider1 = () => {
-  const thumbs = {
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    infinite: false,
-    speed: 400,
-    arrows: false,
-    focusOnSelect: true,
-    autoplay: false,
-    autoplaySpeed: 5000,
-    responsive: [
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
-      {
-        breakpoint: 375,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-    ],
-  };
+  
   const slider = {
     slidesToShow: 4,
     slidesToScroll: 1,
+    mobileFirst:true,
     infinite: true,
     speed: 900,
     arrows: false,
@@ -344,21 +323,29 @@ const TestimonialImageSlider1 = () => {
     autoplaySpeed: 1900,
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 500,
         settings: {
           slidesToShow: 2,
         },
       },
       {
+ 
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 3,
+        }
+   
+      },
+      {
         breakpoint: 375,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],
   };
   return (
-    <Fragment className="swiperimage-hero">
+    <Fragment >
       <Slider {...slider} className="swiperimage-hero">
         {/* Add more image elements as needed */}
 
