@@ -208,6 +208,36 @@ const TestimonialsSlider2 = () => {
           <img src="assets/CompanyLogo/advance.png" alt="Author" />
         </div>
         <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture11.png" alt="Author" />
+        </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture10.jpg" alt="Author" />
+        </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture9.jpg" alt="Author" />
+        </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture8.jpg" alt="Author" />
+        </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture7.jpg" alt="Author" />
+        </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture6.jpg" alt="Author" />
+        </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture5.jpg" alt="Author" />
+        </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture4.jpg" alt="Author" />
+        </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture3.jpg" alt="Author" />
+        </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/Picture1.jpg" alt="Author" />
+        </div>
+        <div className="testi-image-item">
           <img src="assets/CompanyLogo/Canon.gif" alt="Author" />
         </div>
         <div className="testi-image-item">
@@ -349,6 +379,56 @@ const TestimonialImageSlider1 = () => {
       <Slider {...slider} className="swiperimage-hero">
         {/* Add more image elements as needed */}
 
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture11.png" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture10.jpg" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture9.jpg" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture8.jpg" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture7.jpg" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture6.jpg" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture5.jpg" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture4.jpg" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture3.jpg" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/Picture1.jpg" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
         <div className="col align-items-center">
           <a className="partner-item wow fadeInUp delay-0-3s">
             <img src="assets/CompanyLogo/1ab.png" alt="Partner" className="partner-item-image"/>

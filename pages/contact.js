@@ -26,7 +26,7 @@ const Contact = () => {
                   <i className="fal fa-map-marker-alt" />
                 </div>
                 <h4>Locations</h4>
-                <span>Vishwash Park, Uttam Nagar, New Delhi - 110059</span>
+                <span>India</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -47,7 +47,7 @@ const Contact = () => {
                 </div>
                 <h4>Contact</h4>
                 <span>
-                  Mobile : <a href="callto:+91 8130371014">+91 8130371014</a>
+                  Mobile : <a href="callto:+91 9868423356">+91 9868423356</a>
                 </span>
                 <span>
                   Phone : <a href="callto:+91 9868423356">+91 9868423356</a>

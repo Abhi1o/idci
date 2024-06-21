@@ -9,6 +9,16 @@ const ProjectGrid = () => {
 
   // Define your company images here
   const companyImages = [
+    "assets/CompanyLogo/Picture1.jpg",
+    "assets/CompanyLogo/Picture3.jpg",
+    "assets/CompanyLogo/Picture4.jpg",
+    "assets/CompanyLogo/Picture5.jpg",
+    "assets/CompanyLogo/Picture6.jpg",
+    "assets/CompanyLogo/Picture7.jpg",
+    "assets/CompanyLogo/Picture8.jpg",
+    "assets/CompanyLogo/Picture9.jpg",
+    "assets/CompanyLogo/Picture10.jpg",
+    "assets/CompanyLogo/Picture11.jpg",
     "assets/ClientsLogo/egis.png",
     "assets/ClientsLogo/EON.png",
     "assets/ClientsLogo/Aura Herbal Pvt Ltd.png",
@@ -104,7 +114,7 @@ const ProjectGrid = () => {
               </Marquee>
               <p className="mb-120" />
               <Marquee direction="right" gradientColor="white" gradient="true">
-                {companyImages.slice(1).map((image, index) => (
+                {companyImages.slice(27).map((image, index) => (
                   <img
                     key={`image-right-2-${index}`}  // Add unique key here
                     src={image}

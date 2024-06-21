@@ -215,7 +215,7 @@ const Index = () => {
                     <div className="content">
                       <span>Hotline</span>
                       <br />
-                      <a href="callto:+91 8130371014">+91 8130371014</a>
+                      <a href="callto:+91 9868423356">+91 9868423356</a>
                     </div>
                   </div>
                 </div>
@@ -505,11 +505,11 @@ const Index = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="#">
-                    Court Settlement
+                    Long Pending Time Consuming Cases Settlement
                     </Link>
                   </h4>
                   <p>
-                  we provide expert court settlement services designed to resolve disputes efficiently and amicably. Our experienced legal team is dedicated to helping you achieve fair and satisfactory outcomes without the need for prolonged litigation. 
+                  We provide expert services designed to resolve long pending, time-consuming cases efficiently and amicably. Our experienced legal team is dedicated to helping you achieve fair and satisfactory outcomes without the need for prolonged litigation.
                   </p>
                 </div>
               </div>

@@ -5,6 +5,19 @@ import ReviewsCards from "@/src/components/slider/ReviewCards";
 import { useRef } from "react";
 const BlogDetails = () => {
   const clientReviews = [
+    
+    {
+      pdfUrl:"assets/CompanyLogo/AppreciationLetter1page01.jpg",
+      image:"assets/CompanyLogo/AppreciationLetter1page01.jpg",
+      companyName: "Service MAX",
+      stars: 4,
+    },
+    {
+      pdfUrl: "assets/CompanyLogo/AppreciationLetterpage01.jpg",
+      image:"assets/CompanyLogo/AppreciationLetterpage01.jpg",
+      companyName: "Sai International",
+      stars: 4,
+    },
     {
       pdfUrl: "assets/CompanyLogo/Mamenexport(2).png",
       image:"assets/CompanyLogo/Mamenexport(2).png",
@@ -23,6 +36,12 @@ const BlogDetails = () => {
       companyName: "Plaintiff ",
       stars: 5,
     },
+    {
+      pdfUrl: "assets/CompanyLogo/bKumardtdcpag001.jpg",
+      image:"assets/CompanyLogo/bKumardtdcpag001.jpg",
+      companyName: "",
+      stars: 4,
+    },
     
     // Add more client reviews as needed
   ];
@@ -34,8 +53,6 @@ const BlogDetails = () => {
       <PageBanner pageName={"Client Review"} />
       <section className="blog-details-area py-130 rpy-100">
         <div className="container">
-
-
         <div className="row justify-content-center ">
             {clientReviews.map((review, index) => (
               <div className="col-md-6 col-lg-4 pb-90" key={index}>
@@ -43,7 +60,6 @@ const BlogDetails = () => {
                   {/* PDF Letterhead */}
                   
                   <a href={review.pdfUrl} tabIndex={-1} className={`partner-item-two wow fadeInUp  mfp-iframe delay-0-${index + 3}s `}>
-                
                       <img
                         src={review.image}
                         alt="PDF Letterhead"

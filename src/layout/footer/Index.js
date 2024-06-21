@@ -28,7 +28,7 @@ const Footer = () => {
               <div className="content">
                 <span>Hotline</span>
                 <br />
-                <a href="callto:+91 8130371014">+91 8130371014</a>
+                <a href="callto:+91 9868423356">+91 9868423356</a>
                 
               </div>
             </div>
