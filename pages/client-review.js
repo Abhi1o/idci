@@ -39,9 +39,15 @@ const BlogDetails = () => {
     {
       pdfUrl: "assets/CompanyLogo/bKumardtdcpag001.jpg",
       image:"assets/CompanyLogo/bKumardtdcpag001.jpg",
-      companyName: "",
+      companyName: "DTDC Franchisee.",
       stars: 4,
     },
+    {
+      pdfUrl: "assets/CompanyLogo/jaspreet.jpg",
+      image:"assets/CompanyLogo/jaspreet.jpg",
+      companyName: "Jaspreet",
+      stars: 5,
+    }
     
     // Add more client reviews as needed
   ];

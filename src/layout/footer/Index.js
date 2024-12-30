@@ -248,7 +248,7 @@ const Footer = () => {
             </div> */}
            
               <div className="copyright-text text-lg-end wow fadeInLeft delay-0-2s">
-                <p className="text-center">© 2024 idci. Made by <span className="underline">ARS Innovations.</span></p>
+                <p className="text-center">© 2024 idci. Made by <span className="underline"><a href="https://asr-innovations.netlify.app/" target="_blank" rel="noopener noreferrer">ARS Innovations.</a></span></p>
               
             </div>
           </div>
