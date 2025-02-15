@@ -47,7 +47,14 @@ const BlogDetails = () => {
       image:"assets/CompanyLogo/jaspreet.jpg",
       companyName: "Jaspreet",
       stars: 5,
-    }
+    },
+    {
+      pdfUrl: "assets/CompanyLogo/Shrijipower.png",
+      image:"assets/CompanyLogo/Shrijipower.png",
+      companyName: "SHRIJI POWER",
+      stars: 5,
+    },
+
     
     // Add more client reviews as needed
   ];
