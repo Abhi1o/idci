@@ -54,6 +54,8 @@ const ProjectGrid = () => {
     "assets/ClientsLogo/nath.png",
     "assets/ClientsLogo/Carpet.png",
     "assets/ClientsLogo/Shri Solar energy Products Pvt Ltd.png",
+    "assets/CompanyLogo/alliedlogo.png",
+    "assets/CompanyLogo/hduhealth.png",
     // Add more image URLs as needed
   ];
 
@@ -116,7 +118,7 @@ const ProjectGrid = () => {
               </Marquee>
               <p className="mb-120" />
               <Marquee direction="right" gradientColor="white" gradient="true">
-                {companyImages.slice(27).map((image, index) => (
+                {companyImages.slice(25).map((image, index) => (
                   <img
                     key={`image-right-2-${index}`}  // Add unique key here
                     src={image}
