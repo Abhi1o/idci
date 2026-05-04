@@ -9,6 +9,8 @@ const ProjectGrid = () => {
 
   // Define your company images here
   const companyImages = [
+    "assets/CompanyLogo/alliedlogo.png",
+    "assets/CompanyLogo/hduhealth.png",
     "assets/CompanyLogo/Picture1.jpg",
     "assets/CompanyLogo/Picture3.jpg",
     "assets/CompanyLogo/Picture4.jpg",
@@ -18,7 +20,7 @@ const ProjectGrid = () => {
     "assets/CompanyLogo/Picture8.jpg",
     "assets/CompanyLogo/Picture9.jpg",
     "assets/CompanyLogo/Picture10.jpg",
-    "assets/CompanyLogo/Picture11.jpg",
+    "assets/CompanyLogo/Picture11.png",
     "assets/ClientsLogo/egis.png",
     "assets/ClientsLogo/EON.png",
     "assets/ClientsLogo/Aura Herbal Pvt Ltd.png",
