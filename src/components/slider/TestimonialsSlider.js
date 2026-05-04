@@ -252,6 +252,9 @@ const TestimonialsSlider2 = () => {
         <div className="testi-image-item">
           <img src="assets/CompanyLogo/egis.png" alt="Author" />
         </div>
+        <div className="testi-image-item">
+          <img src="assets/CompanyLogo/hduhealth.png" alt="Author"/>
+        </div>
       </Slider>
       <Slider
         {...slider}
@@ -378,6 +381,17 @@ const TestimonialImageSlider1 = () => {
     <Fragment >
       <Slider {...slider} className="swiperimage-hero">
         {/* Add more image elements as needed */}
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/hduhealth.png" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
+    
+        <div className="col align-items-center">
+          <a className="partner-item wow fadeInUp delay-0-3s">
+            <img src="assets/CompanyLogo/alliedlogo.png" alt="Partner" className="partner-item-image"/>
+          </a>
+        </div>
 
         <div className="col align-items-center">
           <a className="partner-item wow fadeInUp delay-0-3s">
