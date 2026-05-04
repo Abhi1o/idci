@@ -70,7 +70,7 @@ const ProjectGrid = () => {
                 <h2>Our Clients</h2>
                 <p>
                   From corporate companies to investors to common man, we have
-                  served everyone. We have created a legacy by serving over 100
+                  served everyone. We have created a legacy by serving over 500
                   clients and we continue to grow.
                 </p>
               </div>
