@@ -78,7 +78,7 @@ const Index = () => {
         <div className="container">
           <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-15">Global Partners</span>
-            <h2>TRUSTED BY MORE THAN 120+ COMPANIES</h2>
+            <h2>TRUSTED BY MORE THAN 500+ COMPANIES</h2>
           </div>
           <div className="mw-100" >
           <TestimonialImageSlider1/>
